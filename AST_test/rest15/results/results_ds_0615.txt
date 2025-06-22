@@ -1,0 +1,144 @@
+Result of checkpoint 4:
+n_labels=485,
+n_preds=518,
+n_common=224,
+Precision=0.4324,
+Recall=0.4619,
+F1=0.4467
+
+Result of checkpoint 9:
+n_labels=485,
+n_preds=599,
+n_common=261,
+Precision=0.4357,
+Recall=0.5381,
+F1=0.4815
+
+Result of checkpoint 13:
+n_labels=485,
+n_preds=475,
+n_common=279,
+Precision=0.5874,
+Recall=0.5753,
+F1=0.5812
+
+Result of checkpoint 18:
+n_labels=485,
+n_preds=463,
+n_common=290,
+Precision=0.6263,
+Recall=0.5979,
+F1=0.6118
+
+Result of checkpoint 23:
+n_labels=485,
+n_preds=478,
+n_common=312,
+Precision=0.6527,
+Recall=0.6433,
+F1=0.6480
+
+Result of checkpoint 27:
+n_labels=485,
+n_preds=516,
+n_common=326,
+Precision=0.6318,
+Recall=0.6722,
+F1=0.6513
+
+Result of checkpoint 32:
+n_labels=485,
+n_preds=491,
+n_common=326,
+Precision=0.6640,
+Recall=0.6722,
+F1=0.6680
+
+Result of checkpoint 37:
+n_labels=485,
+n_preds=536,
+n_common=340,
+Precision=0.6343,
+Recall=0.7010,
+F1=0.6660
+
+Result of checkpoint 41:
+n_labels=485,
+n_preds=514,
+n_common=343,
+Precision=0.6673,
+Recall=0.7072,
+F1=0.6867
+
+Result of checkpoint 46:
+n_labels=485,
+n_preds=504,
+n_common=334,
+Precision=0.6627,
+Recall=0.6887,
+F1=0.6754
+
+Result of checkpoint 50:
+n_labels=485,
+n_preds=544,
+n_common=344,
+Precision=0.6324,
+Recall=0.7093,
+F1=0.6686
+
+Result of checkpoint 55:
+n_labels=485,
+n_preds=504,
+n_common=335,
+Precision=0.6647,
+Recall=0.6907,
+F1=0.6775
+
+Result of checkpoint 60:
+n_labels=485,
+n_preds=494,
+n_common=329,
+Precision=0.6660,
+Recall=0.6784,
+F1=0.6721
+
+Result of checkpoint 64:
+n_labels=485,
+n_preds=499,
+n_common=333,
+Precision=0.6673,
+Recall=0.6866,
+F1=0.6768
+
+Result of checkpoint 69:
+n_labels=485,
+n_preds=501,
+n_common=334,
+Precision=0.6667,
+Recall=0.6887,
+F1=0.6775
+
+Result of checkpoint 74:
+n_labels=485,
+n_preds=501,
+n_common=331,
+Precision=0.6607,
+Recall=0.6825,
+F1=0.6714
+
+Result of checkpoint 78:
+n_labels=485,
+n_preds=502,
+n_common=334,
+Precision=0.6653,
+Recall=0.6887,
+F1=0.6768
+
+Result of checkpoint 80:
+n_labels=485,
+n_preds=503,
+n_common=336,
+Precision=0.6680,
+Recall=0.6928,
+F1=0.6802
+

@@ -1,0 +1,160 @@
+Result of checkpoint 6:
+n_labels=514,
+n_preds=462,
+n_common=278,
+Precision=0.6017,
+Recall=0.5409,
+F1=0.5697
+
+Result of checkpoint 12:
+n_labels=514,
+n_preds=531,
+n_common=359,
+Precision=0.6761,
+Recall=0.6984,
+F1=0.6871
+
+Result of checkpoint 18:
+n_labels=514,
+n_preds=538,
+n_common=361,
+Precision=0.6710,
+Recall=0.7023,
+F1=0.6863
+
+Result of checkpoint 24:
+n_labels=514,
+n_preds=546,
+n_common=374,
+Precision=0.6850,
+Recall=0.7276,
+F1=0.7057
+
+Result of checkpoint 30:
+n_labels=514,
+n_preds=577,
+n_common=388,
+Precision=0.6724,
+Recall=0.7549,
+F1=0.7113
+
+Result of checkpoint 36:
+n_labels=514,
+n_preds=532,
+n_common=374,
+Precision=0.7030,
+Recall=0.7276,
+F1=0.7151
+
+Result of checkpoint 42:
+n_labels=514,
+n_preds=539,
+n_common=375,
+Precision=0.6957,
+Recall=0.7296,
+F1=0.7123
+
+Result of checkpoint 49:
+n_labels=514,
+n_preds=543,
+n_common=386,
+Precision=0.7109,
+Recall=0.7510,
+F1=0.7304
+
+Result of checkpoint 55:
+n_labels=514,
+n_preds=549,
+n_common=377,
+Precision=0.6867,
+Recall=0.7335,
+F1=0.7093
+
+Result of checkpoint 61:
+n_labels=514,
+n_preds=547,
+n_common=386,
+Precision=0.7057,
+Recall=0.7510,
+F1=0.7276
+
+Result of checkpoint 67:
+n_labels=514,
+n_preds=577,
+n_common=382,
+Precision=0.6620,
+Recall=0.7432,
+F1=0.7003
+
+Result of checkpoint 73:
+n_labels=514,
+n_preds=549,
+n_common=392,
+Precision=0.7140,
+Recall=0.7626,
+F1=0.7375
+
+Result of checkpoint 79:
+n_labels=514,
+n_preds=556,
+n_common=392,
+Precision=0.7050,
+Recall=0.7626,
+F1=0.7327
+
+Result of checkpoint 85:
+n_labels=514,
+n_preds=554,
+n_common=396,
+Precision=0.7148,
+Recall=0.7704,
+F1=0.7416
+
+Result of checkpoint 91:
+n_labels=514,
+n_preds=563,
+n_common=398,
+Precision=0.7069,
+Recall=0.7743,
+F1=0.7391
+
+Result of checkpoint 98:
+n_labels=514,
+n_preds=562,
+n_common=397,
+Precision=0.7064,
+Recall=0.7724,
+F1=0.7379
+
+Result of checkpoint 104:
+n_labels=514,
+n_preds=556,
+n_common=389,
+Precision=0.6996,
+Recall=0.7568,
+F1=0.7271
+
+Result of checkpoint 110:
+n_labels=514,
+n_preds=557,
+n_common=395,
+Precision=0.7092,
+Recall=0.7685,
+F1=0.7376
+
+Result of checkpoint 116:
+n_labels=514,
+n_preds=559,
+n_common=395,
+Precision=0.7066,
+Recall=0.7685,
+F1=0.7363
+
+Result of checkpoint 120:
+n_labels=514,
+n_preds=556,
+n_common=393,
+Precision=0.7068,
+Recall=0.7646,
+F1=0.7346
+

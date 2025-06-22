@@ -1,0 +1,5575 @@
+[
+    {
+        "sentence": "tech support would not fix the problem unless I bought your plan for $ 150 plus .",
+        "label": [
+            [
+                "tech support",
+                "not fix",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "tech support",
+                "not fix",
+                "negative"
+            ],
+            [
+                "plan",
+                "plus",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Other than not being a fan of click pads ( industry standard these days ) and the lousy internal speakers , it 's hard for me to find things about this notebook I do n't like , especially considering the $ 350 price tag .",
+        "label": [
+            [
+                "internal speakers",
+                "lousy",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "click pads",
+                "not being a fan",
+                "negative"
+            ],
+            [
+                "internal speakers",
+                "lousy",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Works well , and I am extremely happy to be back to an apple OS .",
+        "label": [
+            [
+                "works",
+                "well",
+                "positive"
+            ],
+            [
+                "apple os",
+                "happy",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "apple os",
+                "well",
+                "positive"
+            ],
+            [
+                "apple os",
+                "happy",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Sure it 's not light and slim but the features make up for it 100 % .",
+        "label": [
+            [
+                "features",
+                "not light and slim",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "make up",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "It is super fast and has outstanding graphics .",
+        "label": [
+            [
+                "graphics",
+                "outstanding",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "graphics",
+                "outstanding",
+                "positive"
+            ],
+            [
+                "fast",
+                "super",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Strong build though which really adds to its durability .",
+        "label": [
+            [
+                "durability",
+                "strong",
+                "positive"
+            ],
+            [
+                "build",
+                "strong",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "build",
+                "strong",
+                "positive"
+            ],
+            [
+                "build",
+                "durability",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "It 's not inexpensive but the Hardware performance is impressive for a computer this small .",
+        "label": [
+            [
+                "hardware performance",
+                "impressive",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hardware performance",
+                "impressive",
+                "positive"
+            ],
+            [
+                "hardware performance",
+                "small",
+                "positive"
+            ],
+            [
+                "cost",
+                "not inexpensive",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "It 's not inexpensive but the Hardware performance is impressive for a computer this small .",
+        "label": [
+            [
+                "hardware performance",
+                "impressive",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hardware performance",
+                "impressive",
+                "positive"
+            ],
+            [
+                "hardware performance",
+                "small",
+                "positive"
+            ],
+            [
+                "cost",
+                "not inexpensive",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Keyboard responds well to presses .",
+        "label": [
+            [
+                "keyboard",
+                "responds well",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "keyboard",
+                "well",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Biggest complaint is Windows 8 .",
+        "label": [
+            [
+                "windows 8",
+                "complaint",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "windows 8",
+                "biggest complaint",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "The criticism has waned , and now I 'd be the first to recommend an Air for truly portable computing .",
+        "label": [
+            [
+                "portable computing",
+                "recommend",
+                "positive"
+            ],
+            [
+                "portable computing",
+                "truly",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "air",
+                "recommend",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "But the performance of Mac Mini is a huge disappointment .",
+        "label": [
+            [
+                "performance",
+                "disappointment",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "performance of mac mini",
+                "huge disappointment",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "I have had it over a year now with out a Glitch of any kind..I love the lit up keys and screen display ... this thing is Fast and clear as can be .",
+        "label": [
+            [
+                "lit up keys",
+                "love",
+                "positive"
+            ],
+            [
+                "lit up keys",
+                "fast",
+                "positive"
+            ],
+            [
+                "lit up keys",
+                "clear",
+                "positive"
+            ],
+            [
+                "screen display",
+                "love",
+                "positive"
+            ],
+            [
+                "screen display",
+                "fast",
+                "positive"
+            ],
+            [
+                "screen display",
+                "clear",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "lit up keys",
+                "love",
+                "positive"
+            ],
+            [
+                "screen display",
+                "love",
+                "positive"
+            ],
+            [
+                "keys",
+                "fast",
+                "positive"
+            ],
+            [
+                "screen display",
+                "fast",
+                "positive"
+            ],
+            [
+                "keys",
+                "clear",
+                "positive"
+            ],
+            [
+                "screen display",
+                "clear",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I have had it over a year now with out a Glitch of any kind..I love the lit up keys and screen display ... this thing is Fast and clear as can be .",
+        "label": [
+            [
+                "lit up keys",
+                "love",
+                "positive"
+            ],
+            [
+                "lit up keys",
+                "fast",
+                "positive"
+            ],
+            [
+                "lit up keys",
+                "clear",
+                "positive"
+            ],
+            [
+                "screen display",
+                "love",
+                "positive"
+            ],
+            [
+                "screen display",
+                "fast",
+                "positive"
+            ],
+            [
+                "screen display",
+                "clear",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "lit up keys",
+                "love",
+                "positive"
+            ],
+            [
+                "screen display",
+                "love",
+                "positive"
+            ],
+            [
+                "keys",
+                "fast",
+                "positive"
+            ],
+            [
+                "screen display",
+                "fast",
+                "positive"
+            ],
+            [
+                "keys",
+                "clear",
+                "positive"
+            ],
+            [
+                "screen display",
+                "clear",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "However , I can refute that OSX is `` FAST '' .",
+        "label": [
+            [
+                "osx",
+                "fast",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "osx",
+                "fast",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+        "label": [
+            [
+                "operating system",
+                "beats",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "speed",
+                "beats",
+                "positive"
+            ],
+            [
+                "multi touch gestures",
+                "beats",
+                "positive"
+            ],
+            [
+                "operating system",
+                "beats",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "From the speed to the multi touch gestures this operating system beats Windows easily .",
+        "label": [
+            [
+                "operating system",
+                "beats",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "speed",
+                "beats",
+                "positive"
+            ],
+            [
+                "multi touch gestures",
+                "beats",
+                "positive"
+            ],
+            [
+                "operating system",
+                "beats",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I really like the size and I 'm a fan of the ACERS .",
+        "label": [
+            [
+                "size",
+                "like",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "size",
+                "like",
+                "positive"
+            ],
+            [
+                "acers",
+                "fan",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty ( $ 1500-2000 ) which also support `` accidents '' like drops and spills that are NOT covered by AppleCare .",
+        "label": [
+            [
+                "squaretrade 3-year computer accidental protection warranty",
+                "support",
+                "positive"
+            ],
+            [
+                "applecare",
+                "not covered",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "squaretrade 3-year computer accidental protection warranty",
+                "opted",
+                "neutral"
+            ],
+            [
+                "applecare",
+                "not covered",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty ( $ 1500-2000 ) which also support `` accidents '' like drops and spills that are NOT covered by AppleCare .",
+        "label": [
+            [
+                "squaretrade 3-year computer accidental protection warranty",
+                "support",
+                "positive"
+            ],
+            [
+                "applecare",
+                "not covered",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "squaretrade 3-year computer accidental protection warranty",
+                "opted",
+                "neutral"
+            ],
+            [
+                "applecare",
+                "not covered",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "It is very easy to integrate bluetooth devices , and USB devices are recognized almost instantly .",
+        "label": [
+            [
+                "integrate bluetooth devices",
+                "easy",
+                "positive"
+            ],
+            [
+                "usb devices",
+                "instantly",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "bluetooth devices",
+                "easy",
+                "positive"
+            ],
+            [
+                "usb devices",
+                "instantly",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Apple removed the DVD drive Firewire port ( will work with adapter ) and put the SDXC slot in a silly position on the back .",
+        "label": [
+            [
+                "dvd drive firewire port",
+                "removed",
+                "neutral"
+            ],
+            [
+                "sdxc slot",
+                "silly",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "dvd drive",
+                "removed",
+                "negative"
+            ],
+            [
+                "firewire port",
+                "removed",
+                "negative"
+            ],
+            [
+                "sdxc slot",
+                "position",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Apple removed the DVD drive Firewire port ( will work with adapter ) and put the SDXC slot in a silly position on the back .",
+        "label": [
+            [
+                "dvd drive firewire port",
+                "removed",
+                "neutral"
+            ],
+            [
+                "sdxc slot",
+                "silly",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "dvd drive",
+                "removed",
+                "negative"
+            ],
+            [
+                "firewire port",
+                "removed",
+                "negative"
+            ],
+            [
+                "sdxc slot",
+                "position",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Apple removed the DVD drive Firewire port ( will work with adapter ) and put the SDXC slot in a silly position on the back .",
+        "label": [
+            [
+                "dvd drive firewire port",
+                "removed",
+                "neutral"
+            ],
+            [
+                "sdxc slot",
+                "silly",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "dvd drive",
+                "removed",
+                "negative"
+            ],
+            [
+                "firewire port",
+                "removed",
+                "negative"
+            ],
+            [
+                "sdxc slot",
+                "position",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "But I was completely wrong , this computer is UNBELIEVABLE amazing and easy to use .",
+        "label": [
+            [
+                "use",
+                "easy",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "use",
+                "amazing",
+                "positive"
+            ],
+            [
+                "use",
+                "easy",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Also stunning colors and speedy",
+        "label": [
+            [
+                "colors",
+                "stunning",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "colors",
+                "stunning",
+                "positive"
+            ],
+            [
+                "speedy",
+                "stunning",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "It is really thick around the battery .",
+        "label": [
+            [
+                "battery",
+                "thick",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "battery",
+                "thick",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "I had the same reasons as most PC users : the price , the overbearing restrictions of OSX and lack of support for games .",
+        "label": [
+            [
+                "osx",
+                "overbearing",
+                "negative"
+            ],
+            [
+                "support for games",
+                "lack",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "price",
+                "overbearing",
+                "negative"
+            ],
+            [
+                "osx",
+                "overbearing",
+                "negative"
+            ],
+            [
+                "support for games",
+                "lack",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Thank goodness for OpenOffice !",
+        "label": [
+            [
+                "openoffice",
+                "goodness",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "openoffice",
+                "thank goodness",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Awesome form factor , great battery life , wonderful UX .",
+        "label": [
+            [
+                "form factor",
+                "awesome",
+                "positive"
+            ],
+            [
+                "battery life",
+                "great",
+                "positive"
+            ],
+            [
+                "ux",
+                "wonderful",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "form factor",
+                "awesome",
+                "positive"
+            ],
+            [
+                "form factor",
+                "great",
+                "positive"
+            ],
+            [
+                "battery life",
+                "great",
+                "positive"
+            ],
+            [
+                "ux",
+                "wonderful",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I 've already upgraded o Mavericks and I am impressed with everything about this computer .",
+        "label": [
+            [
+                "mavericks",
+                "impressed",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mavericks",
+                "upgraded",
+                "neutral"
+            ],
+            [
+                "mavericks",
+                "impressed",
+                "neutral"
+            ],
+            [
+                "this computer",
+                "impressed",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I 've already upgraded o Mavericks and I am impressed with everything about this computer .",
+        "label": [
+            [
+                "mavericks",
+                "impressed",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mavericks",
+                "upgraded",
+                "neutral"
+            ],
+            [
+                "mavericks",
+                "impressed",
+                "neutral"
+            ],
+            [
+                "this computer",
+                "impressed",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I 've already upgraded o Mavericks and I am impressed with everything about this computer .",
+        "label": [
+            [
+                "mavericks",
+                "impressed",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mavericks",
+                "upgraded",
+                "neutral"
+            ],
+            [
+                "mavericks",
+                "impressed",
+                "neutral"
+            ],
+            [
+                "this computer",
+                "impressed",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I did swap out the hard drive for a Samsung 830 SSD which I highly recommend .",
+        "label": [
+            [
+                "samsung 830 ssd",
+                "recommend",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hard drive",
+                "swap out",
+                "neutral"
+            ],
+            [
+                "samsung 830 ssd",
+                "recommend",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I was also informed that the components of the Mac Book were dirty .",
+        "label": [
+            [
+                "components",
+                "dirty",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "components of the mac book",
+                "dirty",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "the hardware problems have been so bad , i ca n't wait till it completely dies in 3 years , TOPS !",
+        "label": [
+            [
+                "hardware",
+                "bad",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hardware",
+                "problems",
+                "negative"
+            ],
+            [
+                "hardware",
+                "bad",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "It 's so nice that the battery last so long and that this machine has the snow lion !",
+        "label": [
+            [
+                "battery",
+                "nice",
+                "positive"
+            ],
+            [
+                "battery",
+                "long",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "battery",
+                "nice",
+                "positive"
+            ],
+            [
+                "snow lion",
+                "long",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Though please note that sometimes it crashes , and the sound quality isnt superb .",
+        "label": [
+            [
+                "sound quality",
+                "isnt superb",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "sound quality",
+                "isnt superb",
+                "negative"
+            ],
+            [
+                "crashes",
+                "crashes",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "One more thing , this mac does NOT come with restore disks and I am not sure if you can make them direct from the mac like you can with newer PC 's , also the charging cables are made of the same cheap material as the iPhone/iPod touch cables .",
+        "label": [
+            [
+                "material",
+                "cheap",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "restore disks",
+                "not come",
+                "negative"
+            ],
+            [
+                "charging cables",
+                "cheap",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "One more thing , this mac does NOT come with restore disks and I am not sure if you can make them direct from the mac like you can with newer PC 's , also the charging cables are made of the same cheap material as the iPhone/iPod touch cables .",
+        "label": [
+            [
+                "material",
+                "cheap",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "restore disks",
+                "not come",
+                "negative"
+            ],
+            [
+                "charging cables",
+                "cheap",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "I have experienced no problems , works as anticipated .",
+        "label": [
+            [
+                "works",
+                "as anticipated",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "works",
+                "no problems",
+                "positive"
+            ],
+            [
+                "works",
+                "as anticipated",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "it has all the features that we expected and the price was good , working well so far .",
+        "label": [
+            [
+                "price",
+                "good",
+                "positive"
+            ],
+            [
+                "working",
+                "well",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "good",
+                "positive"
+            ],
+            [
+                "price",
+                "good",
+                "positive"
+            ],
+            [
+                "working",
+                "well",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "The new operating system makes this computer into a super iPad .",
+        "label": [
+            [
+                "operating system",
+                "new",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "operating system",
+                "new",
+                "positive"
+            ],
+            [
+                "operating system",
+                "super",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I wanted a computer that was quite , fast , and that had overall great performance .",
+        "label": [
+            [
+                "performance",
+                "great",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "performance",
+                "great",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "My only complaint is the total lack of instructions that come with the mac mini .",
+        "label": [
+            [
+                "instructions",
+                "lack",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "instructions",
+                "complaint",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "The only task that this computer would not be good enough for would be gaming , otherwise the integrated Intel 4000 graphics work well for other tasks .",
+        "label": [
+            [
+                "gaming",
+                "not be good",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "intel 4000 graphics",
+                "well",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I use it mostly for content creation ( Audio , video , photo editing ) and its reliable .",
+        "label": [
+            [
+                "audio",
+                "reliable",
+                "positive"
+            ],
+            [
+                "video",
+                "reliable",
+                "positive"
+            ],
+            [
+                "photo editing",
+                "reliable",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "content creation",
+                "reliable",
+                "positive"
+            ],
+            [
+                "audio",
+                "reliable",
+                "neutral"
+            ],
+            [
+                "video",
+                "reliable",
+                "neutral"
+            ],
+            [
+                "photo editing",
+                "reliable",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I use it mostly for content creation ( Audio , video , photo editing ) and its reliable .",
+        "label": [
+            [
+                "audio",
+                "reliable",
+                "positive"
+            ],
+            [
+                "video",
+                "reliable",
+                "positive"
+            ],
+            [
+                "photo editing",
+                "reliable",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "content creation",
+                "reliable",
+                "positive"
+            ],
+            [
+                "audio",
+                "reliable",
+                "neutral"
+            ],
+            [
+                "video",
+                "reliable",
+                "neutral"
+            ],
+            [
+                "photo editing",
+                "reliable",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I use it mostly for content creation ( Audio , video , photo editing ) and its reliable .",
+        "label": [
+            [
+                "audio",
+                "reliable",
+                "positive"
+            ],
+            [
+                "video",
+                "reliable",
+                "positive"
+            ],
+            [
+                "photo editing",
+                "reliable",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "content creation",
+                "reliable",
+                "positive"
+            ],
+            [
+                "audio",
+                "reliable",
+                "neutral"
+            ],
+            [
+                "video",
+                "reliable",
+                "neutral"
+            ],
+            [
+                "photo editing",
+                "reliable",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I use it mostly for content creation ( Audio , video , photo editing ) and its reliable .",
+        "label": [
+            [
+                "audio",
+                "reliable",
+                "positive"
+            ],
+            [
+                "video",
+                "reliable",
+                "positive"
+            ],
+            [
+                "photo editing",
+                "reliable",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "content creation",
+                "reliable",
+                "positive"
+            ],
+            [
+                "audio",
+                "reliable",
+                "neutral"
+            ],
+            [
+                "video",
+                "reliable",
+                "neutral"
+            ],
+            [
+                "photo editing",
+                "reliable",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "It is fast and easy to use .",
+        "label": [
+            [
+                "use",
+                "easy",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "use",
+                "fast",
+                "positive"
+            ],
+            [
+                "use",
+                "easy",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "And the fact that it comes with an i5 processor definitely speeds things up",
+        "label": [
+            [
+                "i5 processor",
+                "speeds things up",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "processor",
+                "speeds",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I have been PC for years but this computer is intuitive and its built in features are a great help",
+        "label": [
+            [
+                "built in features",
+                "great help",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "built in features",
+                "great",
+                "positive"
+            ],
+            [
+                "intuitive",
+                "great",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I have been PC for years but this computer is intuitive and its built in features are a great help",
+        "label": [
+            [
+                "built in features",
+                "great help",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "built in features",
+                "great",
+                "positive"
+            ],
+            [
+                "intuitive",
+                "great",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "It works great and I am so happy I bought it .",
+        "label": [
+            [
+                "works",
+                "great",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "works",
+                "great",
+                "positive"
+            ],
+            [
+                "works",
+                "happy",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I like the design and ease of use with the keyboard , plenty of ports .",
+        "label": [
+            [
+                "design",
+                "like",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "like",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "ease of use",
+                "positive"
+            ],
+            [
+                "ports",
+                "plenty",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "design",
+                "like",
+                "positive"
+            ],
+            [
+                "use",
+                "like",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "plenty",
+                "positive"
+            ],
+            [
+                "ports",
+                "plenty",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I like the design and ease of use with the keyboard , plenty of ports .",
+        "label": [
+            [
+                "design",
+                "like",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "like",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "ease of use",
+                "positive"
+            ],
+            [
+                "ports",
+                "plenty",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "design",
+                "like",
+                "positive"
+            ],
+            [
+                "use",
+                "like",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "plenty",
+                "positive"
+            ],
+            [
+                "ports",
+                "plenty",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "The battery lasts as advertised ( give or take 15-20 minutes ) , and the entire user experience is very elegant .",
+        "label": [
+            [
+                "user experience",
+                "elegant",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "battery",
+                "lasts",
+                "positive"
+            ],
+            [
+                "user experience",
+                "elegant",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Unfortunately , it runs XP and Microsoft is dropping support next April .",
+        "label": [
+            [
+                "xp",
+                "unfortunately",
+                "neutral"
+            ],
+            [
+                "support",
+                "unfortunately",
+                "negative"
+            ],
+            [
+                "support",
+                "dropping",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "xp",
+                "unfortunately",
+                "neutral"
+            ],
+            [
+                "support",
+                "dropping",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "First off , I really do like my MBP ... once used to the OS it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .",
+        "label": [
+            [
+                "os",
+                "like",
+                "positive"
+            ],
+            [
+                "os",
+                "easy",
+                "positive"
+            ],
+            [
+                "overall build",
+                "great",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "best",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "os",
+                "easy",
+                "positive"
+            ],
+            [
+                "build",
+                "great",
+                "positive"
+            ],
+            [
+                "keyboard",
+                "best",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "It 's ok but does n't have a disk drive which I did n't know until after I bought it .",
+        "label": [
+            [
+                "disk drive",
+                "does n't have",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "disk drive",
+                "doesn't have",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "There is no HDMI receptacle , nor is there an SD card slot located anywhere on the device .",
+        "label": [
+            [
+                "hdmi receptacle",
+                "no",
+                "neutral"
+            ],
+            [
+                "sd card slot",
+                "nor",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hdmi receptacle",
+                "no",
+                "negative"
+            ],
+            [
+                "sd card slot",
+                "no",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "There is no HDMI receptacle , nor is there an SD card slot located anywhere on the device .",
+        "label": [
+            [
+                "hdmi receptacle",
+                "no",
+                "neutral"
+            ],
+            [
+                "sd card slot",
+                "nor",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hdmi receptacle",
+                "no",
+                "negative"
+            ],
+            [
+                "sd card slot",
+                "no",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "It should n't happen like that , I do n't have any design app open or anything .",
+        "label": [
+            [
+                "design app",
+                "do n't have",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "design app",
+                "any",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "Its the best , its got the looks , super easy to use and love all you can do with the trackpad ! ..",
+        "label": [
+            [
+                "use",
+                "easy",
+                "positive"
+            ],
+            [
+                "trackpad",
+                "love",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "trackpad",
+                "love",
+                "positive"
+            ],
+            [
+                "use",
+                "easy",
+                "positive"
+            ],
+            [
+                "looks",
+                "best",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "It was also suffering from hardware ( keyboard ) issues , relatively slow performance and shortening battery lifetime .",
+        "label": [
+            [
+                "performance",
+                "slow",
+                "negative"
+            ],
+            [
+                "battery lifetime",
+                "shortening",
+                "negative"
+            ],
+            [
+                "hardware ( keyboard )",
+                "suffering",
+                "negative"
+            ],
+            [
+                "hardware ( keyboard )",
+                "issues",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hardware",
+                "suffering",
+                "negative"
+            ],
+            [
+                "keyboard",
+                "issues",
+                "negative"
+            ],
+            [
+                "performance",
+                "slow",
+                "negative"
+            ],
+            [
+                "battery lifetime",
+                "shortening",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "It was also suffering from hardware ( keyboard ) issues , relatively slow performance and shortening battery lifetime .",
+        "label": [
+            [
+                "performance",
+                "slow",
+                "negative"
+            ],
+            [
+                "battery lifetime",
+                "shortening",
+                "negative"
+            ],
+            [
+                "hardware ( keyboard )",
+                "suffering",
+                "negative"
+            ],
+            [
+                "hardware ( keyboard )",
+                "issues",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hardware",
+                "suffering",
+                "negative"
+            ],
+            [
+                "keyboard",
+                "issues",
+                "negative"
+            ],
+            [
+                "performance",
+                "slow",
+                "negative"
+            ],
+            [
+                "battery lifetime",
+                "shortening",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Apple is aware of this issue and this is either old stock or a defective design involving the intel 4000 graphics chipset .",
+        "label": [
+            [
+                "intel 4000 graphics chipset",
+                "defective",
+                "neutral"
+            ],
+            [
+                "design",
+                "defective",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "intel 4000 graphics chipset",
+                "defective",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "I just bought the new MacBook Pro , the 13 '' model , and I ca n't believe Apple keeps making the same mistake with regard to USB ports .",
+        "label": [
+            [
+                "usb ports",
+                "mistake",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "usb ports",
+                "cann't believe",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "My last laptop was a 17 '' ASUS gaming machine , which performed admirably , but having since built my own desktop and really settling into the college life , I found myself wanting something smaller and less cumbersome , not to mention that the ASUS had been slowly developing problems ever since I bought it about 4 years ago .",
+        "label": [
+            [
+                "performed",
+                "admirably",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "asus",
+                "problems",
+                "negative"
+            ],
+            [
+                "college life",
+                "settling",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "My last laptop was a 17 '' ASUS gaming machine , which performed admirably , but having since built my own desktop and really settling into the college life , I found myself wanting something smaller and less cumbersome , not to mention that the ASUS had been slowly developing problems ever since I bought it about 4 years ago .",
+        "label": [
+            [
+                "performed",
+                "admirably",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "asus",
+                "problems",
+                "negative"
+            ],
+            [
+                "college life",
+                "settling",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I needed a laptop with big storage , a nice screen and fast so I can photoshop without any problem .",
+        "label": [
+            [
+                "storage",
+                "big",
+                "neutral"
+            ],
+            [
+                "screen",
+                "nice",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "storage",
+                "big",
+                "positive"
+            ],
+            [
+                "screen",
+                "nice",
+                "positive"
+            ],
+            [
+                "photoshop",
+                "fast",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I needed a laptop with big storage , a nice screen and fast so I can photoshop without any problem .",
+        "label": [
+            [
+                "storage",
+                "big",
+                "neutral"
+            ],
+            [
+                "screen",
+                "nice",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "storage",
+                "big",
+                "positive"
+            ],
+            [
+                "screen",
+                "nice",
+                "positive"
+            ],
+            [
+                "photoshop",
+                "fast",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I needed a laptop with big storage , a nice screen and fast so I can photoshop without any problem .",
+        "label": [
+            [
+                "storage",
+                "big",
+                "neutral"
+            ],
+            [
+                "screen",
+                "nice",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "storage",
+                "big",
+                "positive"
+            ],
+            [
+                "screen",
+                "nice",
+                "positive"
+            ],
+            [
+                "photoshop",
+                "fast",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I like the design and its features but there are somethings I think needs to be improved .",
+        "label": [
+            [
+                "design",
+                "like",
+                "positive"
+            ],
+            [
+                "features",
+                "needs to be improved",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "design",
+                "like",
+                "positive"
+            ],
+            [
+                "features",
+                "like",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I ordered my 2012 mac mini after being disappointed with spec of the new 27 '' Imacs .",
+        "label": [
+            [
+                "spec",
+                "disappointed",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "spec of the new 27 ''",
+                "disappointed",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Its fast , easy to use and it looks great .",
+        "label": [
+            [
+                "use",
+                "easy",
+                "positive"
+            ],
+            [
+                "looks",
+                "great",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "use",
+                "fast",
+                "positive"
+            ],
+            [
+                "use",
+                "easy",
+                "positive"
+            ],
+            [
+                "looks",
+                "great",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Note , however , that any existing MagSafe accessories you have will not work with the MagSafe 2 connection .",
+        "label": [
+            [
+                "magsafe accessories",
+                "not work",
+                "neutral"
+            ],
+            [
+                "magsafe 2 connection",
+                "not work",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "magsafe accessories",
+                "not work",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "The Mac mini is about 8x smaller than my old computer which is a huge bonus and runs very quiet , actually the fans are n't audible unlike my old pc",
+        "label": [
+            [
+                "runs",
+                "quiet",
+                "positive"
+            ],
+            [
+                "fans",
+                "are n't audible",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "runs",
+                "quiet",
+                "positive"
+            ],
+            [
+                "fans",
+                "audible",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I thought the transition would be difficult at best and would take some time to fully familiarize myself with the new Mac ecosystem .",
+        "label": [
+            [
+                "mac ecosystem",
+                "take some time",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mac ecosystem",
+                "difficult",
+                "neutral"
+            ],
+            [
+                "mac ecosystem",
+                "new",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I thought the transition would be difficult at best and would take some time to fully familiarize myself with the new Mac ecosystem .",
+        "label": [
+            [
+                "mac ecosystem",
+                "take some time",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mac ecosystem",
+                "difficult",
+                "neutral"
+            ],
+            [
+                "mac ecosystem",
+                "new",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I am please with the products ease of use ; out of the box ready ; appearance and functionality .",
+        "label": [
+            [
+                "use",
+                "please",
+                "positive"
+            ],
+            [
+                "use",
+                "ease",
+                "positive"
+            ],
+            [
+                "appearance",
+                "please",
+                "positive"
+            ],
+            [
+                "functionality",
+                "please",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "use",
+                "please",
+                "positive"
+            ],
+            [
+                "appearance",
+                ".",
+                "positive"
+            ],
+            [
+                "functionality",
+                ".",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I am please with the products ease of use ; out of the box ready ; appearance and functionality .",
+        "label": [
+            [
+                "use",
+                "please",
+                "positive"
+            ],
+            [
+                "use",
+                "ease",
+                "positive"
+            ],
+            [
+                "appearance",
+                "please",
+                "positive"
+            ],
+            [
+                "functionality",
+                "please",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "use",
+                "please",
+                "positive"
+            ],
+            [
+                "appearance",
+                ".",
+                "positive"
+            ],
+            [
+                "functionality",
+                ".",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Perfect for all my graphic design classes I 'm taking this year in college : - )",
+        "label": [
+            [
+                "graphic design",
+                "perfect",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "graphic design classes",
+                "perfect",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "! so nice .. stable .. fast .. now i got my SSD !",
+        "label": [
+            [
+                "ssd",
+                "nice",
+                "positive"
+            ],
+            [
+                "ssd",
+                "stable",
+                "positive"
+            ],
+            [
+                "ssd",
+                "fast",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "ssd",
+                "nice",
+                "neutral"
+            ],
+            [
+                "ssd",
+                "stable",
+                "neutral"
+            ],
+            [
+                "ssd",
+                "fast",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "! so nice .. stable .. fast .. now i got my SSD !",
+        "label": [
+            [
+                "ssd",
+                "nice",
+                "positive"
+            ],
+            [
+                "ssd",
+                "stable",
+                "positive"
+            ],
+            [
+                "ssd",
+                "fast",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "ssd",
+                "nice",
+                "neutral"
+            ],
+            [
+                "ssd",
+                "stable",
+                "neutral"
+            ],
+            [
+                "ssd",
+                "fast",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "! so nice .. stable .. fast .. now i got my SSD !",
+        "label": [
+            [
+                "ssd",
+                "nice",
+                "positive"
+            ],
+            [
+                "ssd",
+                "stable",
+                "positive"
+            ],
+            [
+                "ssd",
+                "fast",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "ssd",
+                "nice",
+                "neutral"
+            ],
+            [
+                "ssd",
+                "stable",
+                "neutral"
+            ],
+            [
+                "ssd",
+                "fast",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "Here are the things that made me confident with my purchase : Build Quality - Seriously , you ca n't beat a unibody construction .",
+        "label": [
+            [
+                "build quality",
+                "confident",
+                "positive"
+            ],
+            [
+                "unibody construction",
+                "ca n't beat",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "build quality",
+                "confident",
+                "positive"
+            ],
+            [
+                "build quality",
+                "beat",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "It provides much more flexibility for connectivity .",
+        "label": [
+            [
+                "flexibility for connectivity",
+                "more",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "connectivity",
+                "flexibility",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Logic board utterly fried , cried , and laid down and died .",
+        "label": [
+            [
+                "logic board",
+                "utterly fried",
+                "positive"
+            ],
+            [
+                "logic board",
+                "cried",
+                "positive"
+            ],
+            [
+                "logic board",
+                "laid down",
+                "positive"
+            ],
+            [
+                "logic board",
+                "died",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "logic board",
+                "utterly fried",
+                "negative"
+            ],
+            [
+                "logic board",
+                "cried",
+                "negative"
+            ],
+            [
+                "logic board",
+                "laid down and died",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Logic board utterly fried , cried , and laid down and died .",
+        "label": [
+            [
+                "logic board",
+                "utterly fried",
+                "positive"
+            ],
+            [
+                "logic board",
+                "cried",
+                "positive"
+            ],
+            [
+                "logic board",
+                "laid down",
+                "positive"
+            ],
+            [
+                "logic board",
+                "died",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "logic board",
+                "utterly fried",
+                "negative"
+            ],
+            [
+                "logic board",
+                "cried",
+                "negative"
+            ],
+            [
+                "logic board",
+                "laid down and died",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Logic board utterly fried , cried , and laid down and died .",
+        "label": [
+            [
+                "logic board",
+                "utterly fried",
+                "positive"
+            ],
+            [
+                "logic board",
+                "cried",
+                "positive"
+            ],
+            [
+                "logic board",
+                "laid down",
+                "positive"
+            ],
+            [
+                "logic board",
+                "died",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "logic board",
+                "utterly fried",
+                "negative"
+            ],
+            [
+                "logic board",
+                "cried",
+                "negative"
+            ],
+            [
+                "logic board",
+                "laid down and died",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "The Mini 's body has n't changed since late 2010- and for a good reason .",
+        "label": [
+            [
+                "body",
+                "has n't changed",
+                "positive"
+            ],
+            [
+                "body",
+                "good",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "body",
+                "hasn't changed",
+                "positive"
+            ],
+            [
+                "body",
+                "good",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "3D rendering slows it down considerably .",
+        "label": [
+            [
+                "3d rendering",
+                "slows it down",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "3d rendering",
+                "slows",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "All the ports are much needed since this is my main computer .",
+        "label": [
+            [
+                "ports",
+                "much needed",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "ports",
+                "much needed",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Put a cover on it and is a little better but that is my only complaint .",
+        "label": [
+            [
+                "cover",
+                "a little better",
+                "neutral"
+            ],
+            [
+                "cover",
+                "complaint",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "cover",
+                "better",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "This mac does come with an extender cable and I 'm using mine right now hoping the cable will stay nice for the many years I plan on using this mac .",
+        "label": [
+            [
+                "cable",
+                "nice",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "extender cable",
+                "nice",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "The 2.9ghz dual-core i7 chip really out does itself .",
+        "label": [
+            [
+                "2.9ghz dual-core i7 chip",
+                "really",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "2.9ghz dual-core i7 chip",
+                "out does",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "This newer netbook has no hard drive or network lights .",
+        "label": [
+            [
+                "hard drive",
+                "no",
+                "neutral"
+            ],
+            [
+                "network lights",
+                "no",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hard drive",
+                "no",
+                "negative"
+            ],
+            [
+                "network lights",
+                "no",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "This newer netbook has no hard drive or network lights .",
+        "label": [
+            [
+                "hard drive",
+                "no",
+                "neutral"
+            ],
+            [
+                "network lights",
+                "no",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hard drive",
+                "no",
+                "negative"
+            ],
+            [
+                "network lights",
+                "no",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Not too expense and has enough storage for most users and many ports .",
+        "label": [
+            [
+                "storage",
+                "enough",
+                "positive"
+            ],
+            [
+                "ports",
+                "enough",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "storage",
+                "enough",
+                "positive"
+            ],
+            [
+                "ports",
+                "many",
+                "positive"
+            ],
+            [
+                "expense",
+                "not too",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Not too expense and has enough storage for most users and many ports .",
+        "label": [
+            [
+                "storage",
+                "enough",
+                "positive"
+            ],
+            [
+                "ports",
+                "enough",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "storage",
+                "enough",
+                "positive"
+            ],
+            [
+                "ports",
+                "many",
+                "positive"
+            ],
+            [
+                "expense",
+                "not too",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "The MBP is beautiful has many wonderful capabilities .",
+        "label": [
+            [
+                "capabilities",
+                "wonderful",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "capabilities",
+                "wonderful",
+                "positive"
+            ],
+            [
+                "mbp",
+                "beautiful",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I like the Mini Mac it was easy to setup and install , but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu .",
+        "label": [
+            [
+                "setup",
+                "like",
+                "positive"
+            ],
+            [
+                "setup",
+                "easy",
+                "positive"
+            ],
+            [
+                "install",
+                "like",
+                "positive"
+            ],
+            [
+                "install",
+                "easy",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "learning",
+                "neutral"
+            ],
+            [
+                "setup",
+                "easy",
+                "positive"
+            ],
+            [
+                "install",
+                "easy",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Since the machine 's slim profile is critical to me , that was a problem .",
+        "label": [
+            [
+                "profile",
+                "slim",
+                "negative"
+            ],
+            [
+                "profile",
+                "critical",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "profile",
+                "slim",
+                "negative"
+            ],
+            [
+                "profile",
+                "problem",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .",
+        "label": [
+            [
+                "disk drive",
+                "required",
+                "positive"
+            ],
+            [
+                "usb ports",
+                "required",
+                "positive"
+            ],
+            [
+                "wifi capability",
+                "required",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "wifi capability",
+                "required",
+                "neutral"
+            ],
+            [
+                "disk drive",
+                "required",
+                "neutral"
+            ],
+            [
+                "multiple usb ports",
+                "required",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .",
+        "label": [
+            [
+                "disk drive",
+                "required",
+                "positive"
+            ],
+            [
+                "usb ports",
+                "required",
+                "positive"
+            ],
+            [
+                "wifi capability",
+                "required",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "wifi capability",
+                "required",
+                "neutral"
+            ],
+            [
+                "disk drive",
+                "required",
+                "neutral"
+            ],
+            [
+                "multiple usb ports",
+                "required",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .",
+        "label": [
+            [
+                "disk drive",
+                "required",
+                "positive"
+            ],
+            [
+                "usb ports",
+                "required",
+                "positive"
+            ],
+            [
+                "wifi capability",
+                "required",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "wifi capability",
+                "required",
+                "neutral"
+            ],
+            [
+                "disk drive",
+                "required",
+                "neutral"
+            ],
+            [
+                "multiple usb ports",
+                "required",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "Soft touch , anodized aluminum with laser cut precision and no flaws .",
+        "label": [
+            [
+                "touch",
+                "soft",
+                "positive"
+            ],
+            [
+                "anodized aluminum",
+                "precision",
+                "positive"
+            ],
+            [
+                "anodized aluminum",
+                "no flaws",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "touch",
+                "soft",
+                "positive"
+            ],
+            [
+                "aluminum",
+                "no flaws",
+                "positive"
+            ],
+            [
+                "precision",
+                "no flaws",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Soft touch , anodized aluminum with laser cut precision and no flaws .",
+        "label": [
+            [
+                "touch",
+                "soft",
+                "positive"
+            ],
+            [
+                "anodized aluminum",
+                "precision",
+                "positive"
+            ],
+            [
+                "anodized aluminum",
+                "no flaws",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "touch",
+                "soft",
+                "positive"
+            ],
+            [
+                "aluminum",
+                "no flaws",
+                "positive"
+            ],
+            [
+                "precision",
+                "no flaws",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Simple details , crafted aluminium and real glass make this laptop blow away the other plastic ridden , bulky sticker filled laptops .",
+        "label": [
+            [
+                "aluminium",
+                "crafted",
+                "positive"
+            ],
+            [
+                "glass",
+                "blow away",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "aluminium",
+                "crafted",
+                "positive"
+            ],
+            [
+                "glass",
+                "real",
+                "positive"
+            ],
+            [
+                "sticker",
+                "bulky",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Simple details , crafted aluminium and real glass make this laptop blow away the other plastic ridden , bulky sticker filled laptops .",
+        "label": [
+            [
+                "aluminium",
+                "crafted",
+                "positive"
+            ],
+            [
+                "glass",
+                "blow away",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "aluminium",
+                "crafted",
+                "positive"
+            ],
+            [
+                "glass",
+                "real",
+                "positive"
+            ],
+            [
+                "sticker",
+                "bulky",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "First of all yes this is a mac and it has that nice brushed aluminum .",
+        "label": [
+            [
+                "aluminum",
+                "nice",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "brushed aluminum",
+                "nice",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "No HDMI port .",
+        "label": [
+            [
+                "hdmi port",
+                "no",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "hdmi port",
+                "no",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Customization on mac is impossible .",
+        "label": [
+            [
+                "customization",
+                "impossible",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "customization on mac",
+                "impossible",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Plus two finger clicking as a replacement for the right click button is surprisingly intuitive .",
+        "label": [
+            [
+                "two finger clicking",
+                "surprisingly",
+                "positive"
+            ],
+            [
+                "right click button",
+                "intuitive",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "clicking",
+                "intuitive",
+                "positive"
+            ],
+            [
+                "button",
+                "intuitive",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Plus two finger clicking as a replacement for the right click button is surprisingly intuitive .",
+        "label": [
+            [
+                "two finger clicking",
+                "surprisingly",
+                "positive"
+            ],
+            [
+                "right click button",
+                "intuitive",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "clicking",
+                "intuitive",
+                "positive"
+            ],
+            [
+                "button",
+                "intuitive",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "The battery was completely dead , in fact it had grown about a quarter inch thick lump on the underside .",
+        "label": [
+            [
+                "battery",
+                "dead",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "battery",
+                "dead",
+                "negative"
+            ],
+            [
+                "battery",
+                "thick",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Which it did not have , only 3 USB 2 ports .",
+        "label": [
+            [
+                "usb 2 ports",
+                "not have",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "usb 2 ports",
+                "not have",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "No startup disk was not included but that may be my fault .",
+        "label": [
+            [
+                "startup disk",
+                "no",
+                "neutral"
+            ],
+            [
+                "startup disk",
+                "not included",
+                "neutral"
+            ],
+            [
+                "startup disk",
+                "fault",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "startup disk",
+                "not included",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "It is very fast and has everything that I need except for a word program .",
+        "label": [
+            [
+                "word program",
+                "except for",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "word program",
+                "except",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Easy to install also small to leave anywhere at your bedroom also very easy to configure for ADSl cable or wifi .",
+        "label": [
+            [
+                "install",
+                "easy",
+                "positive"
+            ],
+            [
+                "configure for adsl cable or wifi",
+                "easy",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "install",
+                "easy",
+                "positive"
+            ],
+            [
+                "configure",
+                "easy",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I switched to this because I wanted something different , even though I miss windows .",
+        "label": [
+            [
+                "windows",
+                "miss",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "windows",
+                "miss",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Apple no longer includes iDVD with the computer and furthermore , Apple does n't even offer it anymore !",
+        "label": [
+            [
+                "idvd",
+                "no longer includes",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "idvd",
+                "no longer includes",
+                "negative"
+            ],
+            [
+                "idvd",
+                "doesn't even offer",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "I also wanted Windows 7 , which this one has .",
+        "label": [
+            [
+                "windows 7",
+                "wanted",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "windows 7",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "windows 7",
+                "has",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I also wanted Windows 7 , which this one has .",
+        "label": [
+            [
+                "windows 7",
+                "wanted",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "windows 7",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "windows 7",
+                "has",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "It just works out of the box and you have a lot of cool software included with the OS .",
+        "label": [
+            [
+                "works",
+                "out of the box",
+                "positive"
+            ],
+            [
+                "software",
+                "cool",
+                "positive"
+            ],
+            [
+                "os",
+                "cool",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "software",
+                "cool",
+                "positive"
+            ],
+            [
+                "os",
+                "cool",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Premium price for the OS more than anything else .",
+        "label": [
+            [
+                "price",
+                "premium",
+                "positive"
+            ],
+            [
+                "os",
+                "premium",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "price",
+                "premium",
+                "negative"
+            ],
+            [
+                "os",
+                "premium",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Premium price for the OS more than anything else .",
+        "label": [
+            [
+                "price",
+                "premium",
+                "positive"
+            ],
+            [
+                "os",
+                "premium",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "price",
+                "premium",
+                "negative"
+            ],
+            [
+                "os",
+                "premium",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "I was a little concerned about the touch pad based on reviews , but I 've found it fine to work with .",
+        "label": [
+            [
+                "touch pad",
+                "concerned",
+                "positive"
+            ],
+            [
+                "touch pad",
+                "fine",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "touch pad",
+                "concerned",
+                "negative"
+            ],
+            [
+                "touch pad",
+                "fine",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "However , the experience was great since the OS does not become unstable and the application will simply shutdown and reopen .",
+        "label": [
+            [
+                "os",
+                "great",
+                "positive"
+            ],
+            [
+                "os",
+                "not become unstable",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "os",
+                "not become unstable",
+                "positive"
+            ],
+            [
+                "application",
+                "shutdown",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "the retina display display make pictures i took years ago jaw dropping .",
+        "label": [
+            [
+                "retina display display",
+                "dropping",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "retina display",
+                "jaw dropping",
+                "positive"
+            ],
+            [
+                "display",
+                "jaw dropping",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "the retina display display make pictures i took years ago jaw dropping .",
+        "label": [
+            [
+                "retina display display",
+                "dropping",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "retina display",
+                "jaw dropping",
+                "positive"
+            ],
+            [
+                "display",
+                "jaw dropping",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "The Mac Mini is probably the simplest example of compact computing out there .",
+        "label": [
+            [
+                "compact computing",
+                "simplest",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mac mini",
+                "simplest",
+                "positive"
+            ],
+            [
+                "computing",
+                "compact",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "The Mac Mini is probably the simplest example of compact computing out there .",
+        "label": [
+            [
+                "compact computing",
+                "simplest",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mac mini",
+                "simplest",
+                "positive"
+            ],
+            [
+                "computing",
+                "compact",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .",
+        "label": [
+            [
+                "ventilation system",
+                "barely",
+                "negative"
+            ],
+            [
+                "ventilation system",
+                "hot",
+                "negative"
+            ],
+            [
+                "watching videos",
+                "simple",
+                "neutral"
+            ],
+            [
+                "watching videos",
+                "hot",
+                "neutral"
+            ],
+            [
+                "playing steam games",
+                "hot",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "ventilation system",
+                "barely",
+                "negative"
+            ],
+            [
+                "watching videos",
+                "impossible",
+                "negative"
+            ],
+            [
+                "playing steam games",
+                "impossible",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .",
+        "label": [
+            [
+                "ventilation system",
+                "barely",
+                "negative"
+            ],
+            [
+                "ventilation system",
+                "hot",
+                "negative"
+            ],
+            [
+                "watching videos",
+                "simple",
+                "neutral"
+            ],
+            [
+                "watching videos",
+                "hot",
+                "neutral"
+            ],
+            [
+                "playing steam games",
+                "hot",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "ventilation system",
+                "barely",
+                "negative"
+            ],
+            [
+                "watching videos",
+                "impossible",
+                "negative"
+            ],
+            [
+                "playing steam games",
+                "impossible",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Chatting with Acer support , I was advised the problem was corrupted operating system files .",
+        "label": [
+            [
+                "operating system files",
+                "corrupted",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "operating system files",
+                "corrupted",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "It 's been a couple weeks since the purchase and I 'm struggle with finding the correct keys ( but that was expected ) .",
+        "label": [
+            [
+                "keys",
+                "struggle",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "keys",
+                "struggle",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Many people complain about the new OS , and it 's urgent for Apple to fix it asap !",
+        "label": [
+            [
+                "os",
+                "complain",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "os",
+                "complain",
+                "negative"
+            ],
+            [
+                "os",
+                "fix",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Now that I have upgraded to Lion I am much happier about MAC OS and have just bought an iMac for office .",
+        "label": [
+            [
+                "lion",
+                "upgraded",
+                "positive"
+            ],
+            [
+                "mac os",
+                "happier",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "lion",
+                "upgraded",
+                "positive"
+            ],
+            [
+                "lion",
+                "happier",
+                "positive"
+            ],
+            [
+                "mac os",
+                "upgraded",
+                "positive"
+            ],
+            [
+                "mac os",
+                "happier",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Now that I have upgraded to Lion I am much happier about MAC OS and have just bought an iMac for office .",
+        "label": [
+            [
+                "lion",
+                "upgraded",
+                "positive"
+            ],
+            [
+                "mac os",
+                "happier",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "lion",
+                "upgraded",
+                "positive"
+            ],
+            [
+                "lion",
+                "happier",
+                "positive"
+            ],
+            [
+                "mac os",
+                "upgraded",
+                "positive"
+            ],
+            [
+                "mac os",
+                "happier",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "But I wanted the Pro for the CD/DVD player .",
+        "label": [
+            [
+                "cd/dvd player",
+                "wanted",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "cd/dvd player",
+                "pro",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I was a little worry at first because I do n't have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .",
+        "label": [
+            [
+                "os.x",
+                "worry",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "os.x",
+                "worry",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "With the softwares supporting the use of other OS makes it much better .",
+        "label": [
+            [
+                "os",
+                "better",
+                "neutral"
+            ],
+            [
+                "softwares",
+                "better",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "softwares",
+                "better",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I was considering buying the Air , but in reality , this one has a more powerful performance and seems much more convenient , even though it 's about .20 inch thicker and 2 lbs heavier .",
+        "label": [
+            [
+                "performance",
+                "powerful",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "performance",
+                "powerful",
+                "positive"
+            ],
+            [
+                "convenience",
+                "more",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Just beware no DVD slot so when I went to install software I had on CD I could n't .",
+        "label": [
+            [
+                "dvd slot",
+                "no",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "dvd slot",
+                "no",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "No Cd Rom in the new version there 's no way I 'm spending that kind of money on something has less features than the older version .",
+        "label": [
+            [
+                "cd rom",
+                "no",
+                "neutral"
+            ],
+            [
+                "features",
+                "less",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "cd rom",
+                "no",
+                "negative"
+            ],
+            [
+                "features",
+                "less",
+                "negative"
+            ],
+            [
+                "new version",
+                "no",
+                "negative"
+            ],
+            [
+                "older version",
+                "no",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "No Cd Rom in the new version there 's no way I 'm spending that kind of money on something has less features than the older version .",
+        "label": [
+            [
+                "cd rom",
+                "no",
+                "neutral"
+            ],
+            [
+                "features",
+                "less",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "cd rom",
+                "no",
+                "negative"
+            ],
+            [
+                "features",
+                "less",
+                "negative"
+            ],
+            [
+                "new version",
+                "no",
+                "negative"
+            ],
+            [
+                "older version",
+                "no",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "No Cd Rom in the new version there 's no way I 'm spending that kind of money on something has less features than the older version .",
+        "label": [
+            [
+                "cd rom",
+                "no",
+                "neutral"
+            ],
+            [
+                "features",
+                "less",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "cd rom",
+                "no",
+                "negative"
+            ],
+            [
+                "features",
+                "less",
+                "negative"
+            ],
+            [
+                "new version",
+                "no",
+                "negative"
+            ],
+            [
+                "older version",
+                "no",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "Every time I log into the system after a few hours , there is this endlessly frustrating process that I have to go through .",
+        "label": [
+            [
+                "log into the system",
+                "frustrating",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "process",
+                "frustrating",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Put a SSD and use a 21 '' LED screen , this set up is silky smooth !",
+        "label": [
+            [
+                "set up",
+                "silky smooth",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "21 '' led screen",
+                "silky smooth",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "The case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .",
+        "label": [
+            [
+                "case",
+                "larger",
+                "negative"
+            ],
+            [
+                "external power supply",
+                "lack",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "case",
+                "larger",
+                "neutral"
+            ],
+            [
+                "external power supply",
+                "lack",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "The case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .",
+        "label": [
+            [
+                "case",
+                "larger",
+                "negative"
+            ],
+            [
+                "external power supply",
+                "lack",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "case",
+                "larger",
+                "neutral"
+            ],
+            [
+                "external power supply",
+                "lack",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "I had to buy a wireless mouse to go with it , as I am old school and hate the pad , but knew that before I bought it , now it works great , need to get adjusted to the key board , as I am used to a bigger one and pounding .",
+        "label": [
+            [
+                "pad",
+                "hate",
+                "negative"
+            ],
+            [
+                "works",
+                "great",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "pad",
+                "hate",
+                "negative"
+            ],
+            [
+                "key board",
+                "adjusted",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+        "label": [
+            [
+                "features",
+                "wanted",
+                "positive"
+            ],
+            [
+                "vga port",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "hdmi",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "ethernet",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "usb ports",
+                "wanted",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "all",
+                "positive"
+            ],
+            [
+                "vga port",
+                "has",
+                "positive"
+            ],
+            [
+                "hdmi",
+                "has",
+                "positive"
+            ],
+            [
+                "ethernet",
+                "has",
+                "positive"
+            ],
+            [
+                "usb ports",
+                "has",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+        "label": [
+            [
+                "features",
+                "wanted",
+                "positive"
+            ],
+            [
+                "vga port",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "hdmi",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "ethernet",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "usb ports",
+                "wanted",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "all",
+                "positive"
+            ],
+            [
+                "vga port",
+                "has",
+                "positive"
+            ],
+            [
+                "hdmi",
+                "has",
+                "positive"
+            ],
+            [
+                "ethernet",
+                "has",
+                "positive"
+            ],
+            [
+                "usb ports",
+                "has",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+        "label": [
+            [
+                "features",
+                "wanted",
+                "positive"
+            ],
+            [
+                "vga port",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "hdmi",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "ethernet",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "usb ports",
+                "wanted",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "all",
+                "positive"
+            ],
+            [
+                "vga port",
+                "has",
+                "positive"
+            ],
+            [
+                "hdmi",
+                "has",
+                "positive"
+            ],
+            [
+                "ethernet",
+                "has",
+                "positive"
+            ],
+            [
+                "usb ports",
+                "has",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+        "label": [
+            [
+                "features",
+                "wanted",
+                "positive"
+            ],
+            [
+                "vga port",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "hdmi",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "ethernet",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "usb ports",
+                "wanted",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "all",
+                "positive"
+            ],
+            [
+                "vga port",
+                "has",
+                "positive"
+            ],
+            [
+                "hdmi",
+                "has",
+                "positive"
+            ],
+            [
+                "ethernet",
+                "has",
+                "positive"
+            ],
+            [
+                "usb ports",
+                "has",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .",
+        "label": [
+            [
+                "features",
+                "wanted",
+                "positive"
+            ],
+            [
+                "vga port",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "hdmi",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "ethernet",
+                "wanted",
+                "neutral"
+            ],
+            [
+                "usb ports",
+                "wanted",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "all",
+                "positive"
+            ],
+            [
+                "vga port",
+                "has",
+                "positive"
+            ],
+            [
+                "hdmi",
+                "has",
+                "positive"
+            ],
+            [
+                "ethernet",
+                "has",
+                "positive"
+            ],
+            [
+                "usb ports",
+                "has",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "It 's a decent computer for the price and hopefully it will last a long time .",
+        "label": [
+            [
+                "price",
+                "decent",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "price",
+                "decent",
+                "positive"
+            ],
+            [
+                "time",
+                "long",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "It 's a decent computer for the price and hopefully it will last a long time .",
+        "label": [
+            [
+                "price",
+                "decent",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "price",
+                "decent",
+                "positive"
+            ],
+            [
+                "time",
+                "long",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "this Mac Mini does not have a built-in mic , and it would seem that its Mac OS 10.9 does not handle external microphones properly .",
+        "label": [
+            [
+                "built-in mic",
+                "not have",
+                "neutral"
+            ],
+            [
+                "mac os 10.9",
+                "not handle",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mac os 10.9",
+                "not handle",
+                "negative"
+            ],
+            [
+                "built-in mic",
+                "not have",
+                "negative"
+            ],
+            [
+                "external microphones",
+                "not handle",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "this Mac Mini does not have a built-in mic , and it would seem that its Mac OS 10.9 does not handle external microphones properly .",
+        "label": [
+            [
+                "built-in mic",
+                "not have",
+                "neutral"
+            ],
+            [
+                "mac os 10.9",
+                "not handle",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mac os 10.9",
+                "not handle",
+                "negative"
+            ],
+            [
+                "built-in mic",
+                "not have",
+                "negative"
+            ],
+            [
+                "external microphones",
+                "not handle",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "A lot of features and shortcuts on the MBP that I was never exposed to on a normal PC .",
+        "label": [
+            [
+                "features",
+                "lot of",
+                "neutral"
+            ],
+            [
+                "shortcuts",
+                "lot of",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "a lot of",
+                "positive"
+            ],
+            [
+                "shortcuts",
+                "a lot of",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "A lot of features and shortcuts on the MBP that I was never exposed to on a normal PC .",
+        "label": [
+            [
+                "features",
+                "lot of",
+                "neutral"
+            ],
+            [
+                "shortcuts",
+                "lot of",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "a lot of",
+                "positive"
+            ],
+            [
+                "shortcuts",
+                "a lot of",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "working with Mac is so much easier , so many cool features .",
+        "label": [
+            [
+                "working",
+                "easier",
+                "positive"
+            ],
+            [
+                "features",
+                "cool",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "features",
+                "cool",
+                "positive"
+            ],
+            [
+                "features",
+                "easier",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I only wish this mac had a CD/DVD player built in .",
+        "label": [
+            [
+                "cd/dvd player",
+                "wish",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "cd/dvd player",
+                "wish",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "So happy with this purchase , I just wish it came with Microsoft Word .",
+        "label": [
+            [
+                "microsoft word",
+                "wish",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "microsoft word",
+                "wish",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "The screen , the software and the smoothness of the operating system .",
+        "label": [
+            [
+                "operating system",
+                "smoothness",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "screen",
+                ".",
+                "positive"
+            ],
+            [
+                "software",
+                ".",
+                "positive"
+            ],
+            [
+                "operating system",
+                "smoothness",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "The screen , the software and the smoothness of the operating system .",
+        "label": [
+            [
+                "operating system",
+                "smoothness",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "screen",
+                ".",
+                "positive"
+            ],
+            [
+                "software",
+                ".",
+                "positive"
+            ],
+            [
+                "operating system",
+                "smoothness",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "My only gripe would be the need to add more RAM .",
+        "label": [
+            [
+                "ram",
+                "gripe",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "ram",
+                "gripe",
+                "negative"
+            ],
+            [
+                "ram",
+                "more",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Fine if you have a touch screen .",
+        "label": [
+            [
+                "touch screen",
+                "fine",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "touch screen",
+                "fine",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "A veryimportant feature is Firewire 800 which in my experience works better then USB3 ( in PC enabled with USB3 ) I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7 .",
+        "label": [
+            [
+                "firewire 800",
+                "veryimportant",
+                "positive"
+            ],
+            [
+                "firewire 800",
+                "better",
+                "positive"
+            ],
+            [
+                "mac os",
+                "inferior",
+                "negative"
+            ]
+        ],
+        "error_predict": [
+            [
+                "firewire 800",
+                "important",
+                "positive"
+            ],
+            [
+                "firewire 800",
+                "better",
+                "positive"
+            ],
+            [
+                "mac os",
+                "inferior",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .",
+        "label": [
+            [
+                "itunes",
+                "like",
+                "positive"
+            ],
+            [
+                "security",
+                "apparent",
+                "positive"
+            ],
+            [
+                "graphics stuff",
+                "nice",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "itunes",
+                "like",
+                "positive"
+            ],
+            [
+                "security",
+                "nice",
+                "positive"
+            ],
+            [
+                "mini form factor",
+                "nice",
+                "positive"
+            ],
+            [
+                "graphics",
+                "nice",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .",
+        "label": [
+            [
+                "itunes",
+                "like",
+                "positive"
+            ],
+            [
+                "security",
+                "apparent",
+                "positive"
+            ],
+            [
+                "graphics stuff",
+                "nice",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "itunes",
+                "like",
+                "positive"
+            ],
+            [
+                "security",
+                "nice",
+                "positive"
+            ],
+            [
+                "mini form factor",
+                "nice",
+                "positive"
+            ],
+            [
+                "graphics",
+                "nice",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .",
+        "label": [
+            [
+                "itunes",
+                "like",
+                "positive"
+            ],
+            [
+                "security",
+                "apparent",
+                "positive"
+            ],
+            [
+                "graphics stuff",
+                "nice",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "itunes",
+                "like",
+                "positive"
+            ],
+            [
+                "security",
+                "nice",
+                "positive"
+            ],
+            [
+                "mini form factor",
+                "nice",
+                "positive"
+            ],
+            [
+                "graphics",
+                "nice",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "After replacing the spinning hard disk with an ssd drive , my mac is just flying .",
+        "label": [
+            [
+                "ssd drive",
+                "flying",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "spinning hard disk",
+                "replacing",
+                "neutral"
+            ],
+            [
+                "ssd drive",
+                "flying",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "After replacing the spinning hard disk with an ssd drive , my mac is just flying .",
+        "label": [
+            [
+                "ssd drive",
+                "flying",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "spinning hard disk",
+                "replacing",
+                "neutral"
+            ],
+            [
+                "ssd drive",
+                "flying",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "I know some people complained about HDMI issues but they released a firmware patch to address that issue .",
+        "label": [
+            [
+                "hdmi",
+                "complained",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "firmware patch",
+                "address",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "With the needs of a professional photographer I generally need to keep up with the best specs .",
+        "label": [
+            [
+                "specs",
+                "best",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "specs",
+                "best",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I called Toshiba where I gave them the serial number and they informed me that they were having issues with the mother boards .",
+        "label": [
+            [
+                "mother boards",
+                "issues",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "mother boards",
+                "issues",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "It also comes with 4G of RAM but if you 're like me you want to max that out so I immediately put 8G of RAM in her and I 've never used a computer that performs better .",
+        "label": [
+            [
+                "performs",
+                "better",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "4g of ram",
+                "better",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "This computer is also awesome for my sons virtual home schooling .",
+        "label": [
+            [
+                "virtual home schooling",
+                "awesome",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "home schooling",
+                "virtual",
+                "neutral"
+            ]
+        ]
+    },
+    {
+        "sentence": "also ... - excellent operating system -- size and weight for optimal mobility -- excellent durability of the battery -- the functions provided by the trackpad is unmatched by any other brand-",
+        "label": [
+            [
+                "operating system",
+                "excellent",
+                "positive"
+            ],
+            [
+                "size",
+                "excellent",
+                "positive"
+            ],
+            [
+                "weight",
+                "excellent",
+                "positive"
+            ],
+            [
+                "mobility",
+                "optimal",
+                "positive"
+            ],
+            [
+                "durability of the battery",
+                "excellent",
+                "positive"
+            ],
+            [
+                "functions provided by the trackpad",
+                "unmatched",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "operating system",
+                "excellent",
+                "positive"
+            ],
+            [
+                "size",
+                "optimal mobility",
+                "positive"
+            ],
+            [
+                "weight",
+                "optimal mobility",
+                "positive"
+            ],
+            [
+                "battery",
+                "excellent durability",
+                "positive"
+            ],
+            [
+                "trackpad",
+                "unmatched",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "also ... - excellent operating system -- size and weight for optimal mobility -- excellent durability of the battery -- the functions provided by the trackpad is unmatched by any other brand-",
+        "label": [
+            [
+                "operating system",
+                "excellent",
+                "positive"
+            ],
+            [
+                "size",
+                "excellent",
+                "positive"
+            ],
+            [
+                "weight",
+                "excellent",
+                "positive"
+            ],
+            [
+                "mobility",
+                "optimal",
+                "positive"
+            ],
+            [
+                "durability of the battery",
+                "excellent",
+                "positive"
+            ],
+            [
+                "functions provided by the trackpad",
+                "unmatched",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "operating system",
+                "excellent",
+                "positive"
+            ],
+            [
+                "size",
+                "optimal mobility",
+                "positive"
+            ],
+            [
+                "weight",
+                "optimal mobility",
+                "positive"
+            ],
+            [
+                "battery",
+                "excellent durability",
+                "positive"
+            ],
+            [
+                "trackpad",
+                "unmatched",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "also ... - excellent operating system -- size and weight for optimal mobility -- excellent durability of the battery -- the functions provided by the trackpad is unmatched by any other brand-",
+        "label": [
+            [
+                "operating system",
+                "excellent",
+                "positive"
+            ],
+            [
+                "size",
+                "excellent",
+                "positive"
+            ],
+            [
+                "weight",
+                "excellent",
+                "positive"
+            ],
+            [
+                "mobility",
+                "optimal",
+                "positive"
+            ],
+            [
+                "durability of the battery",
+                "excellent",
+                "positive"
+            ],
+            [
+                "functions provided by the trackpad",
+                "unmatched",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "operating system",
+                "excellent",
+                "positive"
+            ],
+            [
+                "size",
+                "optimal mobility",
+                "positive"
+            ],
+            [
+                "weight",
+                "optimal mobility",
+                "positive"
+            ],
+            [
+                "battery",
+                "excellent durability",
+                "positive"
+            ],
+            [
+                "trackpad",
+                "unmatched",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "also ... - excellent operating system -- size and weight for optimal mobility -- excellent durability of the battery -- the functions provided by the trackpad is unmatched by any other brand-",
+        "label": [
+            [
+                "operating system",
+                "excellent",
+                "positive"
+            ],
+            [
+                "size",
+                "excellent",
+                "positive"
+            ],
+            [
+                "weight",
+                "excellent",
+                "positive"
+            ],
+            [
+                "mobility",
+                "optimal",
+                "positive"
+            ],
+            [
+                "durability of the battery",
+                "excellent",
+                "positive"
+            ],
+            [
+                "functions provided by the trackpad",
+                "unmatched",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "operating system",
+                "excellent",
+                "positive"
+            ],
+            [
+                "size",
+                "optimal mobility",
+                "positive"
+            ],
+            [
+                "weight",
+                "optimal mobility",
+                "positive"
+            ],
+            [
+                "battery",
+                "excellent durability",
+                "positive"
+            ],
+            [
+                "trackpad",
+                "unmatched",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I 've had it for about 2 months now and found no issues with software or updates .",
+        "label": [
+            [
+                "software",
+                "no issues",
+                "neutral"
+            ],
+            [
+                "updates",
+                "no issues",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "software",
+                "no issues",
+                "positive"
+            ],
+            [
+                "updates",
+                "no issues",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "I 've had it for about 2 months now and found no issues with software or updates .",
+        "label": [
+            [
+                "software",
+                "no issues",
+                "neutral"
+            ],
+            [
+                "updates",
+                "no issues",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "software",
+                "no issues",
+                "positive"
+            ],
+            [
+                "updates",
+                "no issues",
+                "positive"
+            ]
+        ]
+    },
+    {
+        "sentence": "the latest version does not have a disc drive .",
+        "label": [
+            [
+                "disc drive",
+                "not have",
+                "neutral"
+            ]
+        ],
+        "error_predict": [
+            [
+                "disc drive",
+                "not have",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Screen - although some people might complain about low res which I think is ridiculous .",
+        "label": [
+            [
+                "screen",
+                "complain",
+                "positive"
+            ],
+            [
+                "screen",
+                "ridiculous",
+                "positive"
+            ],
+            [
+                "res",
+                "low",
+                "positive"
+            ],
+            [
+                "res",
+                "ridiculous",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "screen",
+                "complain",
+                "neutral"
+            ],
+            [
+                "res",
+                "low",
+                "negative"
+            ],
+            [
+                "res",
+                "ridiculous",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Screen - although some people might complain about low res which I think is ridiculous .",
+        "label": [
+            [
+                "screen",
+                "complain",
+                "positive"
+            ],
+            [
+                "screen",
+                "ridiculous",
+                "positive"
+            ],
+            [
+                "res",
+                "low",
+                "positive"
+            ],
+            [
+                "res",
+                "ridiculous",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "screen",
+                "complain",
+                "neutral"
+            ],
+            [
+                "res",
+                "low",
+                "negative"
+            ],
+            [
+                "res",
+                "ridiculous",
+                "negative"
+            ]
+        ]
+    },
+    {
+        "sentence": "Screen - although some people might complain about low res which I think is ridiculous .",
+        "label": [
+            [
+                "screen",
+                "complain",
+                "positive"
+            ],
+            [
+                "screen",
+                "ridiculous",
+                "positive"
+            ],
+            [
+                "res",
+                "low",
+                "positive"
+            ],
+            [
+                "res",
+                "ridiculous",
+                "positive"
+            ]
+        ],
+        "error_predict": [
+            [
+                "screen",
+                "complain",
+                "neutral"
+            ],
+            [
+                "res",
+                "low",
+                "negative"
+            ],
+            [
+                "res",
+                "ridiculous",
+                "negative"
+            ]
+        ]
+    }
+]
