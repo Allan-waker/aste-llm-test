@@ -1,0 +1,447 @@
+[
+  {
+    "sentence": "However , I can refute that OSX is `` FAST '' .",
+    "label": [
+      [
+        "osx",
+        "fast",
+        "negative"
+      ]
+    ],
+    "error_predict": [
+      [
+        "osx",
+        "fast",
+        "positive"
+      ]
+    ]
+  },
+  {
+    "sentence": "I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty ( $ 1500-2000 ) which also support `` accidents '' like drops and spills that are NOT covered by AppleCare .",
+    "label": [
+      [
+        "squaretrade 3-year computer accidental protection warranty",
+        "support",
+        "positive"
+      ],
+      [
+        "applecare",
+        "not covered",
+        "negative"
+      ]
+    ],
+    "error_predict": [
+      [
+        "squaretrade 3-year computer accidental protection warranty",
+        "opted",
+        "neutral"
+      ],
+      [
+        "applecare",
+        "not covered",
+        "neutral"
+      ]
+    ]
+  },
+  {
+    "sentence": "I 've already upgraded o Mavericks and I am impressed with everything about this computer .",
+    "label": [
+      [
+        "mavericks",
+        "impressed",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "mavericks",
+        "upgraded",
+        "neutral"
+      ],
+      [
+        "mavericks",
+        "impressed",
+        "neutral"
+      ],
+      [
+        "this computer",
+        "impressed",
+        "positive"
+      ]
+    ]
+  },
+  {
+    "sentence": "I use it mostly for content creation ( Audio , video , photo editing ) and its reliable .",
+    "label": [
+      [
+        "audio",
+        "reliable",
+        "positive"
+      ],
+      [
+        "video",
+        "reliable",
+        "positive"
+      ],
+      [
+        "photo editing",
+        "reliable",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "content creation",
+        "reliable",
+        "positive"
+      ],
+      [
+        "audio",
+        "reliable",
+        "neutral"
+      ],
+      [
+        "video",
+        "reliable",
+        "neutral"
+      ],
+      [
+        "photo editing",
+        "reliable",
+        "neutral"
+      ]
+    ]
+  },
+  {
+    "sentence": "Unfortunately , it runs XP and Microsoft is dropping support next April .",
+    "label": [
+      [
+        "xp",
+        "unfortunately",
+        "neutral"
+      ],
+      [
+        "support",
+        "unfortunately",
+        "negative"
+      ],
+      [
+        "support",
+        "dropping",
+        "negative"
+      ]
+    ],
+    "error_predict": [
+      [
+        "xp",
+        "unfortunately",
+        "neutral"
+      ],
+      [
+        "support",
+        "dropping",
+        "neutral"
+      ]
+    ]
+  },
+  {
+    "sentence": "! so nice .. stable .. fast .. now i got my SSD !",
+    "label": [
+      [
+        "ssd",
+        "nice",
+        "positive"
+      ],
+      [
+        "ssd",
+        "stable",
+        "positive"
+      ],
+      [
+        "ssd",
+        "fast",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "ssd",
+        "nice",
+        "neutral"
+      ],
+      [
+        "ssd",
+        "stable",
+        "neutral"
+      ],
+      [
+        "ssd",
+        "fast",
+        "neutral"
+      ]
+    ]
+  },
+  {
+    "sentence": "Logic board utterly fried , cried , and laid down and died .",
+    "label": [
+      [
+        "logic board",
+        "utterly fried",
+        "positive"
+      ],
+      [
+        "logic board",
+        "cried",
+        "positive"
+      ],
+      [
+        "logic board",
+        "laid down",
+        "positive"
+      ],
+      [
+        "logic board",
+        "died",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "logic board",
+        "utterly fried",
+        "negative"
+      ],
+      [
+        "logic board",
+        "cried",
+        "negative"
+      ],
+      [
+        "logic board",
+        "laid down and died",
+        "negative"
+      ]
+    ]
+  },
+  {
+    "sentence": "WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .",
+    "label": [
+      [
+        "disk drive",
+        "required",
+        "positive"
+      ],
+      [
+        "usb ports",
+        "required",
+        "positive"
+      ],
+      [
+        "wifi capability",
+        "required",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "wifi capability",
+        "required",
+        "neutral"
+      ],
+      [
+        "disk drive",
+        "required",
+        "neutral"
+      ],
+      [
+        "multiple usb ports",
+        "required",
+        "neutral"
+      ]
+    ]
+  },
+  {
+    "sentence": "I switched to this because I wanted something different , even though I miss windows .",
+    "label": [
+      [
+        "windows",
+        "miss",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "windows",
+        "miss",
+        "negative"
+      ]
+    ]
+  },
+  {
+    "sentence": "I also wanted Windows 7 , which this one has .",
+    "label": [
+      [
+        "windows 7",
+        "wanted",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "windows 7",
+        "wanted",
+        "neutral"
+      ],
+      [
+        "windows 7",
+        "has",
+        "neutral"
+      ]
+    ]
+  },
+  {
+    "sentence": "Premium price for the OS more than anything else .",
+    "label": [
+      [
+        "price",
+        "premium",
+        "positive"
+      ],
+      [
+        "os",
+        "premium",
+        "neutral"
+      ]
+    ],
+    "error_predict": [
+      [
+        "price",
+        "premium",
+        "negative"
+      ],
+      [
+        "os",
+        "premium",
+        "negative"
+      ]
+    ]
+  },
+  {
+    "sentence": "I was a little concerned about the touch pad based on reviews , but I 've found it fine to work with .",
+    "label": [
+      [
+        "touch pad",
+        "concerned",
+        "positive"
+      ],
+      [
+        "touch pad",
+        "fine",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "touch pad",
+        "concerned",
+        "negative"
+      ],
+      [
+        "touch pad",
+        "fine",
+        "positive"
+      ]
+    ]
+  },
+  {
+    "sentence": "The case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .",
+    "label": [
+      [
+        "case",
+        "larger",
+        "negative"
+      ],
+      [
+        "external power supply",
+        "lack",
+        "neutral"
+      ]
+    ],
+    "error_predict": [
+      [
+        "case",
+        "larger",
+        "neutral"
+      ],
+      [
+        "external power supply",
+        "lack",
+        "negative"
+      ]
+    ]
+  },
+  {
+    "sentence": "After replacing the spinning hard disk with an ssd drive , my mac is just flying .",
+    "label": [
+      [
+        "ssd drive",
+        "flying",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "spinning hard disk",
+        "replacing",
+        "neutral"
+      ],
+      [
+        "ssd drive",
+        "flying",
+        "neutral"
+      ]
+    ]
+  },
+  {
+    "sentence": "Screen - although some people might complain about low res which I think is ridiculous .",
+    "label": [
+      [
+        "screen",
+        "complain",
+        "positive"
+      ],
+      [
+        "screen",
+        "ridiculous",
+        "positive"
+      ],
+      [
+        "res",
+        "low",
+        "positive"
+      ],
+      [
+        "res",
+        "ridiculous",
+        "positive"
+      ]
+    ],
+    "error_predict": [
+      [
+        "screen",
+        "complain",
+        "neutral"
+      ],
+      [
+        "res",
+        "low",
+        "negative"
+      ],
+      [
+        "res",
+        "ridiculous",
+        "negative"
+      ]
+    ]
+  }
+]

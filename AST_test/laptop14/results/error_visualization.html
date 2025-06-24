@@ -1,0 +1,1055 @@
+<html><head><meta charset='utf-8'><style>body{font-family:Arial}</style></head><body>
+<h2>模型预测错误可视化</h2>
+<h3>错误类型：正确预测出句子中的三元组，但错误预测出多余的三元组（共29条）</h3><ul>
+<li><strong>句子：</strong> tech support would not fix the problem unless I bought your plan for $ 150 plus .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (tech support, not fix, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (tech support, not fix, negative)</span><br>
+<span style="color:orange; font-weight:bold">❌ (plan, plus, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Other than not being a fan of click pads ( industry standard these days ) and the lousy internal speakers , it &#x27;s hard for me to find things about this notebook I do n&#x27;t like , especially considering the $ 350 price tag .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (internal speakers, lousy, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (click pads, not being a fan, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (internal speakers, lousy, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It is super fast and has outstanding graphics .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (graphics, outstanding, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (fast, super, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (graphics, outstanding, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It &#x27;s not inexpensive but the Hardware performance is impressive for a computer this small .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (hardware performance, impressive, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (hardware performance, impressive, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (hardware performance, small, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (cost, not inexpensive, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> From the speed to the multi touch gestures this operating system beats Windows easily .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (operating system, beats, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (speed, beats, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (multi touch gestures, beats, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (operating system, beats, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I really like the size and I &#x27;m a fan of the ACERS .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (size, like, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (acers, fan, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (size, like, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> But I was completely wrong , this computer is UNBELIEVABLE amazing and easy to use .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (use, easy, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (use, easy, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (use, amazing, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Also stunning colors and speedy<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (colors, stunning, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (speedy, stunning, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (colors, stunning, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I had the same reasons as most PC users : the price , the overbearing restrictions of OSX and lack of support for games .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (osx, overbearing, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (support for games, lack, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (price, overbearing, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (osx, overbearing, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (support for games, lack, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Awesome form factor , great battery life , wonderful UX .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (battery life, great, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (ux, wonderful, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (form factor, awesome, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (battery life, great, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (ux, wonderful, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (form factor, great, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (form factor, awesome, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I did swap out the hard drive for a Samsung 830 SSD which I highly recommend .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (samsung 830 ssd, recommend, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (hard drive, swap out, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (samsung 830 ssd, recommend, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> the hardware problems have been so bad , i ca n&#x27;t wait till it completely dies in 3 years , TOPS !<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (hardware, bad, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (hardware, bad, negative)</span><br>
+<span style="color:orange; font-weight:bold">❌ (hardware, problems, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Though please note that sometimes it crashes , and the sound quality isnt superb .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (sound quality, isnt superb, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (crashes, crashes, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (sound quality, isnt superb, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I have experienced no problems , works as anticipated .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (works, as anticipated, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (works, as anticipated, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (works, no problems, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> it has all the features that we expected and the price was good , working well so far .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (working, well, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (price, good, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (working, well, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (price, good, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (features, good, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The new operating system makes this computer into a super iPad .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (operating system, new, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (operating system, super, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (operating system, new, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It is fast and easy to use .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (use, easy, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (use, fast, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (use, easy, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It works great and I am so happy I bought it .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (works, great, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (works, great, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (works, happy, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The battery lasts as advertised ( give or take 15-20 minutes ) , and the entire user experience is very elegant .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (user experience, elegant, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (battery, lasts, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (user experience, elegant, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Its the best , its got the looks , super easy to use and love all you can do with the trackpad ! ..<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (use, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (trackpad, love, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (use, easy, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (looks, best, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (trackpad, love, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Its fast , easy to use and it looks great .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (use, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (looks, great, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (use, fast, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (looks, great, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (use, easy, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The MBP is beautiful has many wonderful capabilities .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (capabilities, wonderful, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (capabilities, wonderful, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (mbp, beautiful, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The battery was completely dead , in fact it had grown about a quarter inch thick lump on the underside .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (battery, dead, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (battery, thick, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (battery, dead, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Apple no longer includes iDVD with the computer and furthermore , Apple does n&#x27;t even offer it anymore !<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (idvd, no longer includes, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (idvd, no longer includes, negative)</span><br>
+<span style="color:orange; font-weight:bold">❌ (idvd, doesn&#x27;t even offer, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Many people complain about the new OS , and it &#x27;s urgent for Apple to fix it asap !<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (os, complain, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (os, complain, negative)</span><br>
+<span style="color:orange; font-weight:bold">❌ (os, fix, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Now that I have upgraded to Lion I am much happier about MAC OS and have just bought an iMac for office .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (lion, upgraded, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (mac os, happier, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (lion, upgraded, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (lion, happier, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (mac os, happier, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (mac os, upgraded, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I was considering buying the Air , but in reality , this one has a more powerful performance and seems much more convenient , even though it &#x27;s about .20 inch thicker and 2 lbs heavier .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (performance, powerful, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (performance, powerful, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (convenience, more, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The screen , the software and the smoothness of the operating system .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (operating system, smoothness, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (software, ., positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (operating system, smoothness, positive)</span><br>
+<span style="color:orange; font-weight:bold">❌ (screen, ., positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> My only gripe would be the need to add more RAM .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (ram, gripe, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:orange; font-weight:bold">❌ (ram, more, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (ram, gripe, negative)</span><br>
+<hr></li>
+</ul>
+<h3>错误类型：方面词或观点词预测错误（共92条）</h3><ul>
+<li><strong>句子：</strong> Works well , and I am extremely happy to be back to an apple OS .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (works, well, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (apple os, happy, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (apple os, happy, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (apple os, well, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Sure it &#x27;s not light and slim but the features make up for it 100 % .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (features, not light and slim, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (features, make up, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Strong build though which really adds to its durability .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (build, strong, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (durability, strong, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (build, strong, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (build, durability, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Keyboard responds well to presses .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (keyboard, responds well, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (keyboard, well, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Biggest complaint is Windows 8 .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (windows 8, complaint, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (windows 8, biggest complaint, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The criticism has waned , and now I &#x27;d be the first to recommend an Air for truly portable computing .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (portable computing, recommend, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (portable computing, truly, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (air, recommend, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> But the performance of Mac Mini is a huge disappointment .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (performance, disappointment, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (performance of mac mini, huge disappointment, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I have had it over a year now with out a Glitch of any kind..I love the lit up keys and screen display ... this thing is Fast and clear as can be .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (screen display, clear, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (lit up keys, love, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (lit up keys, clear, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (lit up keys, fast, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (screen display, fast, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (screen display, love, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (keys, fast, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (keys, clear, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (screen display, clear, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (lit up keys, love, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (screen display, fast, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (screen display, love, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It is very easy to integrate bluetooth devices , and USB devices are recognized almost instantly .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (integrate bluetooth devices, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (usb devices, instantly, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (bluetooth devices, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (usb devices, instantly, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Apple removed the DVD drive Firewire port ( will work with adapter ) and put the SDXC slot in a silly position on the back .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (dvd drive firewire port, removed, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (sdxc slot, silly, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (firewire port, removed, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (dvd drive, removed, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (sdxc slot, position, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It is really thick around the battery .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (battery, thick, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (battery, thick, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Thank goodness for OpenOffice !<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (openoffice, goodness, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (openoffice, thank goodness, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I was also informed that the components of the Mac Book were dirty .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (components, dirty, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (components of the mac book, dirty, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It &#x27;s so nice that the battery last so long and that this machine has the snow lion !<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (battery, nice, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (battery, long, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (snow lion, long, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (battery, nice, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> One more thing , this mac does NOT come with restore disks and I am not sure if you can make them direct from the mac like you can with newer PC &#x27;s , also the charging cables are made of the same cheap material as the iPhone/iPod touch cables .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (material, cheap, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (charging cables, cheap, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (restore disks, not come, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I wanted a computer that was quite , fast , and that had overall great performance .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (performance, great, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (performance, great, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> My only complaint is the total lack of instructions that come with the mac mini .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (instructions, lack, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (instructions, complaint, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The only task that this computer would not be good enough for would be gaming , otherwise the integrated Intel 4000 graphics work well for other tasks .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (gaming, not be good, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (intel 4000 graphics, well, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> And the fact that it comes with an i5 processor definitely speeds things up<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (i5 processor, speeds things up, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (processor, speeds, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I have been PC for years but this computer is intuitive and its built in features are a great help<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (built in features, great help, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (built in features, great, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (intuitive, great, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I like the design and ease of use with the keyboard , plenty of ports .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (keyboard, ease of use, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (design, like, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (keyboard, like, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (ports, plenty, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (design, like, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (ports, plenty, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (keyboard, plenty, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (use, like, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> First off , I really do like my MBP ... once used to the OS it is pretty easy to get around , and the overall build is great ... eg the keyboard is one of the best to type on .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (os, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (keyboard, best, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (overall build, great, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (os, like, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (os, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (keyboard, best, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (build, great, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It &#x27;s ok but does n&#x27;t have a disk drive which I did n&#x27;t know until after I bought it .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (disk drive, does n&#x27;t have, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (disk drive, doesn&#x27;t have, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> There is no HDMI receptacle , nor is there an SD card slot located anywhere on the device .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (sd card slot, nor, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (hdmi receptacle, no, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (sd card slot, no, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (hdmi receptacle, no, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It should n&#x27;t happen like that , I do n&#x27;t have any design app open or anything .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (design app, do n&#x27;t have, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (design app, any, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It was also suffering from hardware ( keyboard ) issues , relatively slow performance and shortening battery lifetime .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (battery lifetime, shortening, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (performance, slow, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (hardware ( keyboard ), suffering, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (hardware ( keyboard ), issues, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (keyboard, issues, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (performance, slow, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (battery lifetime, shortening, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (hardware, suffering, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Apple is aware of this issue and this is either old stock or a defective design involving the intel 4000 graphics chipset .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (intel 4000 graphics chipset, defective, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (design, defective, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (intel 4000 graphics chipset, defective, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I just bought the new MacBook Pro , the 13 &#x27;&#x27; model , and I ca n&#x27;t believe Apple keeps making the same mistake with regard to USB ports .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (usb ports, mistake, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (usb ports, cann&#x27;t believe, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> My last laptop was a 17 &#x27;&#x27; ASUS gaming machine , which performed admirably , but having since built my own desktop and really settling into the college life , I found myself wanting something smaller and less cumbersome , not to mention that the ASUS had been slowly developing problems ever since I bought it about 4 years ago .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (performed, admirably, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (college life, settling, neutral)</span><br>
+<span style="color:red; font-weight:bold">❌ (asus, problems, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I needed a laptop with big storage , a nice screen and fast so I can photoshop without any problem .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (storage, big, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (screen, nice, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (screen, nice, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (storage, big, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (photoshop, fast, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I like the design and its features but there are somethings I think needs to be improved .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (design, like, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (features, needs to be improved, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (features, like, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (design, like, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I ordered my 2012 mac mini after being disappointed with spec of the new 27 &#x27;&#x27; Imacs .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (spec, disappointed, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (spec of the new 27 &#x27;&#x27;, disappointed, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Note , however , that any existing MagSafe accessories you have will not work with the MagSafe 2 connection .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (magsafe accessories, not work, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (magsafe 2 connection, not work, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (magsafe accessories, not work, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The Mac mini is about 8x smaller than my old computer which is a huge bonus and runs very quiet , actually the fans are n&#x27;t audible unlike my old pc<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (runs, quiet, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (fans, are n&#x27;t audible, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (runs, quiet, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (fans, audible, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I thought the transition would be difficult at best and would take some time to fully familiarize myself with the new Mac ecosystem .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (mac ecosystem, take some time, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (mac ecosystem, new, neutral)</span><br>
+<span style="color:red; font-weight:bold">❌ (mac ecosystem, difficult, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I am please with the products ease of use ; out of the box ready ; appearance and functionality .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (functionality, please, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (use, ease, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (use, please, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (appearance, please, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (use, please, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (appearance, ., positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (functionality, ., positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Perfect for all my graphic design classes I &#x27;m taking this year in college : - )<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (graphic design, perfect, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (graphic design classes, perfect, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Here are the things that made me confident with my purchase : Build Quality - Seriously , you ca n&#x27;t beat a unibody construction .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (unibody construction, ca n&#x27;t beat, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (build quality, confident, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (build quality, beat, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (build quality, confident, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It provides much more flexibility for connectivity .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (flexibility for connectivity, more, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (connectivity, flexibility, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The Mini &#x27;s body has n&#x27;t changed since late 2010- and for a good reason .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (body, good, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (body, has n&#x27;t changed, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (body, hasn&#x27;t changed, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (body, good, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> 3D rendering slows it down considerably .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (3d rendering, slows it down, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (3d rendering, slows, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> All the ports are much needed since this is my main computer .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (ports, much needed, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (ports, much needed, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Put a cover on it and is a little better but that is my only complaint .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (cover, complaint, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (cover, a little better, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (cover, better, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> This mac does come with an extender cable and I &#x27;m using mine right now hoping the cable will stay nice for the many years I plan on using this mac .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (cable, nice, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (extender cable, nice, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The 2.9ghz dual-core i7 chip really out does itself .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (2.9ghz dual-core i7 chip, really, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (2.9ghz dual-core i7 chip, out does, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> This newer netbook has no hard drive or network lights .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (network lights, no, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (hard drive, no, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (network lights, no, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (hard drive, no, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Not too expense and has enough storage for most users and many ports .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (storage, enough, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (ports, enough, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (ports, many, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (storage, enough, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (expense, not too, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I like the Mini Mac it was easy to setup and install , but I am learning as I go and could use a tutorial to learn how to use some of the features I was use to on the PC especially the right mouse click menu .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (install, like, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (setup, like, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (install, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (setup, easy, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (install, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (setup, easy, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (features, learning, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Since the machine &#x27;s slim profile is critical to me , that was a problem .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (profile, slim, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (profile, critical, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (profile, slim, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (profile, problem, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Soft touch , anodized aluminum with laser cut precision and no flaws .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (anodized aluminum, precision, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (anodized aluminum, no flaws, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (touch, soft, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (touch, soft, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (aluminum, no flaws, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (precision, no flaws, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Simple details , crafted aluminium and real glass make this laptop blow away the other plastic ridden , bulky sticker filled laptops .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (aluminium, crafted, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (glass, blow away, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (glass, real, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (aluminium, crafted, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (sticker, bulky, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> First of all yes this is a mac and it has that nice brushed aluminum .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (aluminum, nice, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (brushed aluminum, nice, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> No HDMI port .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (hdmi port, no, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (hdmi port, no, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Customization on mac is impossible .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (customization, impossible, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (customization on mac, impossible, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Plus two finger clicking as a replacement for the right click button is surprisingly intuitive .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (right click button, intuitive, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (two finger clicking, surprisingly, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (button, intuitive, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (clicking, intuitive, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Which it did not have , only 3 USB 2 ports .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (usb 2 ports, not have, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (usb 2 ports, not have, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> No startup disk was not included but that may be my fault .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (startup disk, no, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (startup disk, fault, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (startup disk, not included, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (startup disk, not included, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It is very fast and has everything that I need except for a word program .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (word program, except for, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (word program, except, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Easy to install also small to leave anywhere at your bedroom also very easy to configure for ADSl cable or wifi .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (install, easy, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (configure for adsl cable or wifi, easy, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (install, easy, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (configure, easy, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It just works out of the box and you have a lot of cool software included with the OS .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (software, cool, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (os, cool, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (works, out of the box, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (software, cool, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (os, cool, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> However , the experience was great since the OS does not become unstable and the application will simply shutdown and reopen .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (os, not become unstable, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (os, great, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (os, not become unstable, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (application, shutdown, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> the retina display display make pictures i took years ago jaw dropping .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (retina display display, dropping, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (display, jaw dropping, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (retina display, jaw dropping, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The Mac Mini is probably the simplest example of compact computing out there .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (compact computing, simplest, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (computing, compact, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (mac mini, simplest, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Additionally , there is barely a ventilation system in the computer , and even the simple activity of watching videos let alone playing steam games causes the laptop to get very very hot , and in fact impossible to keep on lap .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (playing steam games, hot, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (ventilation system, barely, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (ventilation system, hot, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (watching videos, hot, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (watching videos, simple, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (playing steam games, impossible, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (ventilation system, barely, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (watching videos, impossible, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Chatting with Acer support , I was advised the problem was corrupted operating system files .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (operating system files, corrupted, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (operating system files, corrupted, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It &#x27;s been a couple weeks since the purchase and I &#x27;m struggle with finding the correct keys ( but that was expected ) .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (keys, struggle, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (keys, struggle, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> But I wanted the Pro for the CD/DVD player .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (cd/dvd player, wanted, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (cd/dvd player, pro, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I was a little worry at first because I do n&#x27;t have a lot of experience with os.x and windows has always been second nature to me after many years of using windows .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (os.x, worry, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (os.x, worry, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> With the softwares supporting the use of other OS makes it much better .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (os, better, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (softwares, better, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (softwares, better, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Just beware no DVD slot so when I went to install software I had on CD I could n&#x27;t .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (dvd slot, no, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (dvd slot, no, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> No Cd Rom in the new version there &#x27;s no way I &#x27;m spending that kind of money on something has less features than the older version .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (features, less, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (cd rom, no, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (features, less, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (older version, no, neutral)</span><br>
+<span style="color:red; font-weight:bold">❌ (new version, no, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (cd rom, no, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Every time I log into the system after a few hours , there is this endlessly frustrating process that I have to go through .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (log into the system, frustrating, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (process, frustrating, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Put a SSD and use a 21 &#x27;&#x27; LED screen , this set up is silky smooth !<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (set up, silky smooth, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (21 &#x27;&#x27; led screen, silky smooth, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I had to buy a wireless mouse to go with it , as I am old school and hate the pad , but knew that before I bought it , now it works great , need to get adjusted to the key board , as I am used to a bigger one and pounding .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (pad, hate, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (works, great, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (pad, hate, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (key board, adjusted, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Has all the other features I wanted including a VGA port , HDMI , ethernet and 3 USB ports .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (hdmi, wanted, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (ethernet, wanted, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (features, wanted, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (vga port, wanted, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (usb ports, wanted, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (hdmi, has, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (vga port, has, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (usb ports, has, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (ethernet, has, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (features, all, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It &#x27;s a decent computer for the price and hopefully it will last a long time .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (price, decent, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (time, long, neutral)</span><br>
+<span style="color:red; font-weight:bold">❌ (price, decent, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> this Mac Mini does not have a built-in mic , and it would seem that its Mac OS 10.9 does not handle external microphones properly .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (mac os 10.9, not handle, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (built-in mic, not have, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (mac os 10.9, not handle, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (external microphones, not handle, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (built-in mic, not have, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> A lot of features and shortcuts on the MBP that I was never exposed to on a normal PC .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (shortcuts, lot of, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (features, lot of, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (shortcuts, a lot of, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (features, a lot of, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> working with Mac is so much easier , so many cool features .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (features, cool, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (working, easier, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (features, easier, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (features, cool, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I only wish this mac had a CD/DVD player built in .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (cd/dvd player, wish, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (cd/dvd player, wish, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> So happy with this purchase , I just wish it came with Microsoft Word .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (microsoft word, wish, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (microsoft word, wish, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Fine if you have a touch screen .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (touch screen, fine, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (touch screen, fine, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> A veryimportant feature is Firewire 800 which in my experience works better then USB3 ( in PC enabled with USB3 ) I was not originally sold on the MAC OS I felt it was inferior in many ways To Windows 7 .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (firewire 800, better, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (mac os, inferior, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (firewire 800, veryimportant, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (firewire 800, better, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (mac os, inferior, negative)</span><br>
+<span style="color:red; font-weight:bold">❌ (firewire 800, important, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I like iTunes , the apparent security , the Mini form factor , all the nice graphics stuff .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (graphics stuff, nice, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (security, apparent, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (itunes, like, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (graphics, nice, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (security, nice, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (mini form factor, nice, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (itunes, like, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I know some people complained about HDMI issues but they released a firmware patch to address that issue .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (hdmi, complained, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (firmware patch, address, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> With the needs of a professional photographer I generally need to keep up with the best specs .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (specs, best, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (specs, best, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I called Toshiba where I gave them the serial number and they informed me that they were having issues with the mother boards .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (mother boards, issues, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (mother boards, issues, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> It also comes with 4G of RAM but if you &#x27;re like me you want to max that out so I immediately put 8G of RAM in her and I &#x27;ve never used a computer that performs better .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (performs, better, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (4g of ram, better, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> This computer is also awesome for my sons virtual home schooling .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (virtual home schooling, awesome, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (home schooling, virtual, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> also ... - excellent operating system -- size and weight for optimal mobility -- excellent durability of the battery -- the functions provided by the trackpad is unmatched by any other brand-<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (functions provided by the trackpad, unmatched, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (operating system, excellent, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (size, excellent, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (mobility, optimal, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (durability of the battery, excellent, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (weight, excellent, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (battery, excellent durability, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (trackpad, unmatched, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (size, optimal mobility, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (operating system, excellent, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (weight, optimal mobility, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I &#x27;ve had it for about 2 months now and found no issues with software or updates .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (software, no issues, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (updates, no issues, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (software, no issues, positive)</span><br>
+<span style="color:red; font-weight:bold">❌ (updates, no issues, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> the latest version does not have a disc drive .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (disc drive, not have, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:red; font-weight:bold">❌ (disc drive, not have, negative)</span><br>
+<hr></li>
+</ul>
+<h3>错误类型：情感极性预测错误（共15条）</h3><ul>
+<li><strong>句子：</strong> However , I can refute that OSX is `` FAST &#x27;&#x27; .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (osx, fast, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (osx, fast, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I opted for the SquareTrade 3-Year Computer Accidental Protection Warranty ( $ 1500-2000 ) which also support `` accidents &#x27;&#x27; like drops and spills that are NOT covered by AppleCare .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (squaretrade 3-year computer accidental protection warranty, support, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (applecare, not covered, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (applecare, not covered, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (squaretrade 3-year computer accidental protection warranty, opted, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I &#x27;ve already upgraded o Mavericks and I am impressed with everything about this computer .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (mavericks, impressed, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (this computer, impressed, positive)</span><br>
+<span style="color:blue; font-weight:bold">❌ (mavericks, impressed, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (mavericks, upgraded, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I use it mostly for content creation ( Audio , video , photo editing ) and its reliable .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (video, reliable, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (photo editing, reliable, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (audio, reliable, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (photo editing, reliable, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (video, reliable, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (content creation, reliable, positive)</span><br>
+<span style="color:blue; font-weight:bold">❌ (audio, reliable, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Unfortunately , it runs XP and Microsoft is dropping support next April .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (xp, unfortunately, neutral)</span><br>
+<span style="color:green; font-weight:bold">✔ (support, dropping, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (support, unfortunately, negative)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:green; font-weight:bold">✔ (xp, unfortunately, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (support, dropping, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> ! so nice .. stable .. fast .. now i got my SSD !<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (ssd, fast, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (ssd, stable, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (ssd, nice, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (ssd, nice, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (ssd, stable, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (ssd, fast, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Logic board utterly fried , cried , and laid down and died .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (logic board, utterly fried, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (logic board, laid down, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (logic board, cried, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (logic board, died, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (logic board, cried, negative)</span><br>
+<span style="color:blue; font-weight:bold">❌ (logic board, laid down and died, negative)</span><br>
+<span style="color:blue; font-weight:bold">❌ (logic board, utterly fried, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> WiFi capability , disk drive and multiple USB ports to connect scale and printers was all that was required .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (usb ports, required, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (disk drive, required, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (wifi capability, required, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (disk drive, required, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (multiple usb ports, required, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (wifi capability, required, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I switched to this because I wanted something different , even though I miss windows .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (windows, miss, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (windows, miss, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I also wanted Windows 7 , which this one has .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (windows 7, wanted, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (windows 7, wanted, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (windows 7, has, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Premium price for the OS more than anything else .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (price, premium, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (os, premium, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (price, premium, negative)</span><br>
+<span style="color:blue; font-weight:bold">❌ (os, premium, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> I was a little concerned about the touch pad based on reviews , but I &#x27;ve found it fine to work with .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (touch pad, fine, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (touch pad, concerned, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (touch pad, concerned, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (touch pad, fine, positive)</span><br>
+<hr></li>
+<li><strong>句子：</strong> The case is now slightly larger than the previous generation , but the lack of an external power supply justifies the small increase in size .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (case, larger, negative)</span><br>
+<span style="color:green; font-weight:bold">✔ (external power supply, lack, neutral)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (case, larger, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (external power supply, lack, negative)</span><br>
+<hr></li>
+<li><strong>句子：</strong> After replacing the spinning hard disk with an ssd drive , my mac is just flying .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (ssd drive, flying, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (ssd drive, flying, neutral)</span><br>
+<span style="color:blue; font-weight:bold">❌ (spinning hard disk, replacing, neutral)</span><br>
+<hr></li>
+<li><strong>句子：</strong> Screen - although some people might complain about low res which I think is ridiculous .<br>
+<strong>标签：</strong><br>
+<span style="color:green; font-weight:bold">✔ (screen, ridiculous, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (screen, complain, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (res, low, positive)</span><br>
+<span style="color:green; font-weight:bold">✔ (res, ridiculous, positive)</span><br>
+<strong>预测结果：</strong><br>
+<span style="color:blue; font-weight:bold">❌ (res, ridiculous, negative)</span><br>
+<span style="color:blue; font-weight:bold">❌ (res, low, negative)</span><br>
+<span style="color:blue; font-weight:bold">❌ (screen, complain, neutral)</span><br>
+<hr></li>
+</ul>
+</body></html>
